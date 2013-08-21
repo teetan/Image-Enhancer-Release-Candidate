@@ -1,0 +1,10 @@
+﻿           
+		                                                 Code Metric for Image Enhancer 1.0.0 Version
+													   -----------------------------------------------
+
+                                                             Maintainability Index - 57
+                                                             Cyclomatic Complexity - 242
+                                                             Depth of Inheritance - 7
+                                                             Class Coupling - 7
+                                                             Lines of Code - 2438
+													   -------------------------------------------------
