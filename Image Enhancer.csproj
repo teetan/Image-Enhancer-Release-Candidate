@@ -37,30 +37,34 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
-    <PlatformTarget>x86</PlatformTarget>
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>86389E4E6481D79157ABBB5D14601F20798455B7</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>077A0055070C97E77D0F60F78927640A7EF47E46</ManifestCertificateThumbprint>
-  </PropertyGroup>
-  <PropertyGroup>
-    <ManifestKeyFile>Accord_Test_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>Image Enhancer_2_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
     <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>IE.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AForge, Version=2.2.4.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
@@ -109,9 +113,122 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="ZedGraph, Version=5.1.5.28844, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdaptiveSmooth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdaptiveSmooth.Designer.cs">
+      <DependentUpon>AdaptiveSmooth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Additivenoise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Additivenoise.Designer.cs">
+      <DependentUpon>Additivenoise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BayerFilt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BayerFilt.Designer.cs">
+      <DependentUpon>BayerFilt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BicubicResize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BicubicResize.Designer.cs">
+      <DependentUpon>BicubicResize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BicubicRotation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BicubicRotation.Designer.cs">
+      <DependentUpon>BicubicRotation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BilateralSmooth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BilateralSmooth.Designer.cs">
+      <DependentUpon>BilateralSmooth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BilinearResize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BilinearResize.Designer.cs">
+      <DependentUpon>BilinearResize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Binarization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Binarization.Designer.cs">
+      <DependentUpon>Binarization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Brightnesscorrection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Brightnesscorrection.Designer.cs">
+      <DependentUpon>Brightnesscorrection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BurkesDither.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BurkesDither.Designer.cs">
+      <DependentUpon>BurkesDither.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CannyEdgeDetection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CannyEdgeDetection.Designer.cs">
+      <DependentUpon>CannyEdgeDetection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChannelFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChannelFilter.Designer.cs">
+      <DependentUpon>ChannelFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ColorYCbCr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ColorYCbCr.Designer.cs">
+      <DependentUpon>ColorYCbCr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConservativeSmooth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConservativeSmooth.Designer.cs">
+      <DependentUpon>ConservativeSmooth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContrastCorrect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContrastCorrect.Designer.cs">
+      <DependentUpon>ContrastCorrect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CropCanvas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CropCanvas.Designer.cs">
+      <DependentUpon>CropCanvas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtractionOfChannel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExtractionOfChannel.Designer.cs">
+      <DependentUpon>ExtractionOfChannel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtractYCbCr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExtractYCbCr.Designer.cs">
+      <DependentUpon>ExtractYCbCr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FloydSteinbergDither.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FloydSteinbergDither.Designer.cs">
+      <DependentUpon>FloydSteinbergDither.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,8 +247,227 @@
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
+    <Compile Include="GamaCorrect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GamaCorrect.Designer.cs">
+      <DependentUpon>GamaCorrect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GaussBlur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GaussBlur.Designer.cs">
+      <DependentUpon>GaussBlur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GaussSharpen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GaussSharpen.Designer.cs">
+      <DependentUpon>GaussSharpen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HSLFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HSLFilter.Designer.cs">
+      <DependentUpon>HSLFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Jittering.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jittering.Designer.cs">
+      <DependentUpon>Jittering.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JJNDither.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JJNDither.Designer.cs">
+      <DependentUpon>JJNDither.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LinearYCbCr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LinearYCbCr.Designer.cs">
+      <DependentUpon>LinearYCbCr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MedianFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MedianFilter.Designer.cs">
+      <DependentUpon>MedianFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MirrorEffect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MirrorEffect.Designer.cs">
+      <DependentUpon>MirrorEffect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NearestNeighbourResize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NearestNeighbourResize.Designer.cs">
+      <DependentUpon>NearestNeighbourResize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NearestNeighbourRotation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NearestNeighbourRotation.Designer.cs">
+      <DependentUpon>NearestNeighbourRotation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NormalizedExtraction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NormalizedExtraction.Designer.cs">
+      <DependentUpon>NormalizedExtraction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OilPaint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OilPaint.Designer.cs">
+      <DependentUpon>OilPaint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pixellation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pixellation.Designer.cs">
+      <DependentUpon>Pixellation.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SaltandPepperNoise.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaltandPepperNoise.Designer.cs">
+      <DependentUpon>SaltandPepperNoise.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SatCorrection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SatCorrection.Designer.cs">
+      <DependentUpon>SatCorrection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SatDecrement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SatDecrement.Designer.cs">
+      <DependentUpon>SatDecrement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SatuIncrement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SatuIncrement.Designer.cs">
+      <DependentUpon>SatuIncrement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SierraDither.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SierraDither.Designer.cs">
+      <DependentUpon>SierraDither.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimplePoster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SimplePoster.Designer.cs">
+      <DependentUpon>SimplePoster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleSkeleton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SimpleSkeleton.Designer.cs">
+      <DependentUpon>SimpleSkeleton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SobelEdgeDetection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SobelEdgeDetection.Designer.cs">
+      <DependentUpon>SobelEdgeDetection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StuckiDither.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StuckiDither.Designer.cs">
+      <DependentUpon>StuckiDither.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Texture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Texture.Designer.cs">
+      <DependentUpon>Texture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransformFromPolarImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransformFromPolarImage.Designer.cs">
+      <DependentUpon>TransformFromPolarImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransformToPolarImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransformToPolarImage.Designer.cs">
+      <DependentUpon>TransformToPolarImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WaterWaveFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaterWaveFilter.Designer.cs">
+      <DependentUpon>WaterWaveFilter.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdaptiveSmooth.resx">
+      <DependentUpon>AdaptiveSmooth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Additivenoise.resx">
+      <DependentUpon>Additivenoise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BayerFilt.resx">
+      <DependentUpon>BayerFilt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BicubicResize.resx">
+      <DependentUpon>BicubicResize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BicubicRotation.resx">
+      <DependentUpon>BicubicRotation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BilateralSmooth.resx">
+      <DependentUpon>BilateralSmooth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BilinearResize.resx">
+      <DependentUpon>BilinearResize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Binarization.resx">
+      <DependentUpon>Binarization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Brightnesscorrection.resx">
+      <DependentUpon>Brightnesscorrection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BurkesDither.resx">
+      <DependentUpon>BurkesDither.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CannyEdgeDetection.resx">
+      <DependentUpon>CannyEdgeDetection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChannelFilter.resx">
+      <DependentUpon>ChannelFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ColorYCbCr.resx">
+      <DependentUpon>ColorYCbCr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConservativeSmooth.resx">
+      <DependentUpon>ConservativeSmooth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContrastCorrect.resx">
+      <DependentUpon>ContrastCorrect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CropCanvas.resx">
+      <DependentUpon>CropCanvas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtractionOfChannel.resx">
+      <DependentUpon>ExtractionOfChannel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtractYCbCr.resx">
+      <DependentUpon>ExtractYCbCr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FloydSteinbergDither.resx">
+      <DependentUpon>FloydSteinbergDither.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -140,6 +476,48 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GamaCorrect.resx">
+      <DependentUpon>GamaCorrect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GaussBlur.resx">
+      <DependentUpon>GaussBlur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GaussSharpen.resx">
+      <DependentUpon>GaussSharpen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HSLFilter.resx">
+      <DependentUpon>HSLFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jittering.resx">
+      <DependentUpon>Jittering.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JJNDither.resx">
+      <DependentUpon>JJNDither.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LinearYCbCr.resx">
+      <DependentUpon>LinearYCbCr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MedianFilter.resx">
+      <DependentUpon>MedianFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MirrorEffect.resx">
+      <DependentUpon>MirrorEffect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NearestNeighbourResize.resx">
+      <DependentUpon>NearestNeighbourResize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NearestNeighbourRotation.resx">
+      <DependentUpon>NearestNeighbourRotation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NormalizedExtraction.resx">
+      <DependentUpon>NormalizedExtraction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OilPaint.resx">
+      <DependentUpon>OilPaint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pixellation.resx">
+      <DependentUpon>Pixellation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -150,6 +528,48 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SaltandPepperNoise.resx">
+      <DependentUpon>SaltandPepperNoise.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SatCorrection.resx">
+      <DependentUpon>SatCorrection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SatDecrement.resx">
+      <DependentUpon>SatDecrement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SatuIncrement.resx">
+      <DependentUpon>SatuIncrement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SierraDither.resx">
+      <DependentUpon>SierraDither.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimplePoster.resx">
+      <DependentUpon>SimplePoster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SimpleSkeleton.resx">
+      <DependentUpon>SimpleSkeleton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SobelEdgeDetection.resx">
+      <DependentUpon>SobelEdgeDetection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StuckiDither.resx">
+      <DependentUpon>StuckiDither.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Texture.resx">
+      <DependentUpon>Texture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransformFromPolarImage.resx">
+      <DependentUpon>TransformFromPolarImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransformToPolarImage.resx">
+      <DependentUpon>TransformToPolarImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaterWaveFilter.resx">
+      <DependentUpon>WaterWaveFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Image Enhancer_1_TemporaryKey.pfx" />
+    <None Include="Image Enhancer_2_TemporaryKey.pfx" />
+    <None Include="Image Enhancer_TemporaryKey.pfx" />
     <None Include="ImageEnhancer_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -186,6 +606,8 @@
   <ItemGroup>
     <Content Include="Code Metric for Image Enhancer 1.0.0.txt" />
     <Content Include="GNU LGPL License.txt" />
+    <Content Include="IE Code Metric.jpg" />
+    <Content Include="IE.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

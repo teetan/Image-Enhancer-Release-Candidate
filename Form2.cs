@@ -151,128 +151,252 @@ using AForge.Imaging.Filters;
 using AForge.Imaging;
 using AForge;
 using AForge.Math.Random;
+using Accord_Test;
+using AForge.Imaging.Formats;
 
 namespace ImageEnhancer  
 {
     public partial class Form2 : Form
     {
-        Bitmap rgb_image, gray_image, binary_image;     
+        Bitmap rgb_image;     
         public Form2()
         {
             InitializeComponent();            
         }
-
-        /* Method stub for Additive Noise */
-        /* The filter adds random value to each pixel of the source image. The distribution of random values can be specified by random generator. 
-           The filter accepts 8 bpp grayscale images and 24 bpp color images for processing */
-        private void button1_Click(object sender, EventArgs e)
+        /* Event Stub for Form2 Loading */
+        /* Tooltips giving proper algorithmic information for every filter,
+         * are appeared with the second page/Form2 loading of Image Enhancer Software */
+        private void Form2_Load(object sender, EventArgs e)
         {
-            try
-            {
-                Cursor.Current = Cursors.WaitCursor;
-                Form2 f2 = new Form2();
-                pictureBox1.Visible = false;
-                Bitmap bp = rgb_image;
-                if (bp != null)
-                {
-                    Bitmap temp = bp.Clone() as Bitmap;
-                    
-                    // create random generator                   
-                    IRandomNumberGenerator generator = new UniformGenerator(new AForge.Range(-50,50),20);
-                    // create filter
-                    FiltersSequence fs = new FiltersSequence();
-                    fs.Add(new AdditiveNoise(generator));
-                    // apply the filter
-                    temp=fs.Apply(temp);                    
-                    pictureBox1.Image = new Bitmap(temp);
-                    pictureBox1.Show();
-                }
-                else
-                    MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    Cursor.Current = Cursors.Default;
-                    this.Refresh();
-            }
-            catch (Exception e1)
-            {
-               MessageBox.Show("Error in Selecting Images", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
-               this.Refresh();
-            }
+            ToolTip rf = new ToolTip();
+            rf.IsBalloon = true;
+            rf.ToolTipTitle = "Refresh";
+            rf.ToolTipIcon = ToolTipIcon.Info;
+            rf.SetToolTip(Refresh, "Refresh the image vieweing area");
+
+            ToolTip sv = new ToolTip();
+            sv.IsBalloon = true;
+            sv.ToolTipTitle = "Save";
+            sv.ToolTipIcon = ToolTipIcon.Info;
+            sv.SetToolTip(Save, "Save the image to disk");
+
+            ToolTip bk = new ToolTip();
+            bk.IsBalloon = true;
+            bk.ToolTipTitle = "Back";
+            bk.ToolTipIcon = ToolTipIcon.Info;
+            bk.SetToolTip(Back, "Navigate back to previous page");
+
+            ToolTip nxt = new ToolTip();
+            nxt.IsBalloon = true;
+            nxt.ToolTipTitle = "Next";
+            nxt.ToolTipIcon = ToolTipIcon.Info;
+            nxt.SetToolTip(Next, "Navigate forward to next page");
+
+            ToolTip opn = new ToolTip();
+            opn.IsBalloon = true;
+            opn.ToolTipTitle = "Open";
+            opn.ToolTipIcon = ToolTipIcon.Info;
+            opn.SetToolTip(OpenImage, "Open the image from disk");
+
+            ToolTip adtnse = new ToolTip();
+            adtnse.IsBalloon = true;
+            adtnse.ToolTipTitle = "Additive Noise";
+            adtnse.ToolTipIcon = ToolTipIcon.Info;
+            adtnse.SetToolTip(AdditiveNoise,"This filter adds random noise to the source image");
+
+            ToolTip bltsmg = new ToolTip();
+            bltsmg.IsBalloon = true;
+            bltsmg.ToolTipTitle = "Bilateral Smoothing";
+            bltsmg.ToolTipIcon = ToolTipIcon.Info;
+            bltsmg.SetToolTip(BilateralSmoothing, "This filter conducts selective Gaussian smoothing preserving sharp edges");
+
+            ToolTip ccrop = new ToolTip();
+            ccrop.IsBalloon = true;
+            ccrop.ToolTipTitle = "Canvas Cropping";
+            ccrop.ToolTipIcon = ToolTipIcon.Info;
+            ccrop.SetToolTip(CanvasCrop, "The filter fills areas outside of specified region using the specified color");
+
+            ToolTip baflt = new ToolTip();
+            baflt.IsBalloon = true;
+            baflt.ToolTipTitle = "Bayer Transformation";
+            baflt.ToolTipIcon = ToolTipIcon.Info;
+            baflt.SetToolTip(BayerFilter, "This filter produces color image out of grayscale image");
+
+            ToolTip mflt = new ToolTip();
+            mflt.IsBalloon = true;
+            mflt.ToolTipTitle = "Image Averaging(Mean)";
+            mflt.ToolTipIcon = ToolTipIcon.Info;
+            mflt.SetToolTip(MeanFilter, "This filter performs each pixel value's averaging using 8 neighbor connectivity");
+
+            ToolTip wwav = new ToolTip();
+            wwav.IsBalloon = true;
+            wwav.ToolTipTitle = "Water Wave Effect";
+            wwav.ToolTipIcon = ToolTipIcon.Info;
+            wwav.SetToolTip(WaterWave, "This filter implements simple water wave effect");
+
+            ToolTip hsl = new ToolTip();
+            hsl.IsBalloon = true;
+            hsl.ToolTipTitle = "Hue Saturation Lightness Effect";
+            hsl.ToolTipIcon = ToolTipIcon.Info;
+            hsl.SetToolTip(HSLFilter, "This filter modifies pixels with colors inside/outside of the specified range and fills the rest with specified color in HSL color space");
+
+            ToolTip ycbcr = new ToolTip();
+            ycbcr.IsBalloon = true;
+            ycbcr.ToolTipTitle = " Y Cb Cr Color Effect";
+            ycbcr.ToolTipIcon = ToolTipIcon.Info;
+            ycbcr.SetToolTip(YCbCrColor, "This filter modifies pixels with colors inside/outside of the specified range and fills the rest with specified color in Y Cb Cr color space");
+
+            ToolTip ycbcrex = new ToolTip();
+            ycbcrex.IsBalloon = true;
+            ycbcrex.ToolTipTitle = "Y Cb Cr Extract Effect";
+            ycbcrex.ToolTipIcon = ToolTipIcon.Info;
+            ycbcrex.SetToolTip(YCbCrExtract, "This filter extracts specified YCbCr channel of color image returning it in the form of grayscale image");
+
+            ToolTip tplr = new ToolTip();
+            tplr.IsBalloon = true;
+            tplr.ToolTipTitle = "Transform to Polar Effect";
+            tplr.ToolTipIcon = ToolTipIcon.Info;
+            tplr.SetToolTip(TransformToPolar, "This filter transforms the source image into polar image using distortion");
+
+            ToolTip tfplr = new ToolTip();
+            tfplr.IsBalloon = true;
+            tfplr.ToolTipTitle = "Transform from Polar Effect";
+            tfplr.ToolTipIcon = ToolTipIcon.Info;
+            tfplr.SetToolTip(TransformFromPolar, "This filter transforms from the polar image using distortion");
+
+            ToolTip ycbcrlr = new ToolTip();
+            ycbcrlr.IsBalloon = true;
+            ycbcrlr.ToolTipTitle = "Y Cb Cr Linear Effect";
+            ycbcrlr.ToolTipIcon = ToolTipIcon.Info;
+            ycbcrlr.SetToolTip(YCbCrLinear, "This filter provides with the facility of linear correction of its channels operates in YCbCr color space");
+
+            ToolTip stdthr = new ToolTip();
+            stdthr.IsBalloon = true;
+            stdthr.ToolTipTitle = "Stucki Dithering";
+            stdthr.ToolTipIcon = ToolTipIcon.Info;
+            stdthr.SetToolTip(StuckiDithering, "This filter performs binarization based on error diffusion dithering with Stucki coefficients");
+
+            ToolTip smplskltn = new ToolTip();
+            smplskltn.IsBalloon = true;
+            smplskltn.ToolTipTitle = "Simple Skeleton";
+            smplskltn.ToolTipIcon = ToolTipIcon.Info;
+            smplskltn.SetToolTip(SimpleSkeleton, "This filter build simple object skeletons,thinning them until they have one pixel wide bones horizontally and vertically");
+
+            ToolTip extrnrm = new ToolTip();
+            extrnrm.IsBalloon = true;
+            extrnrm.ToolTipTitle = "Normalized Extraction";
+            extrnrm.ToolTipIcon = ToolTipIcon.Info;
+            extrnrm.SetToolTip(ExtractNormalized, "This filter extracts specified normalized RGB channel of color image returning the grayscale image");
+
+            ToolTip chnlfltr = new ToolTip();
+            chnlfltr.IsBalloon = true;
+            chnlfltr.ToolTipTitle = "Channel Filtering";
+            chnlfltr.ToolTipIcon = ToolTipIcon.Info;
+            chnlfltr.SetToolTip(ChannelFiltering, "The filter implements color channels by filling with specified values");
+
+            ToolTip cnsrmg = new ToolTip();
+            cnsrmg.IsBalloon = true;
+            cnsrmg.ToolTipTitle = "Conservative Smoothing";
+            cnsrmg.ToolTipIcon = ToolTipIcon.Info;
+            cnsrmg.SetToolTip(ConservativeSmoothing, "This fileter applies noise reduction technique which sacrifices noise suppression power in order to preserve the high spatial frequency detail in an image");
+
+            ToolTip sucrdt = new ToolTip();
+            sucrdt.IsBalloon = true;
+            sucrdt.ToolTipTitle = "Susan Corner Detection";
+            sucrdt.ToolTipIcon = ToolTipIcon.Info;
+            sucrdt.SetToolTip(SusanCornerDetection, "This filter detects the sharp corners of the input image");
+
+            ToolTip jjn = new ToolTip();
+            jjn.IsBalloon = true;
+            jjn.ToolTipTitle = "Jarvis Juids Ninke Dithering";
+            jjn.ToolTipIcon = ToolTipIcon.Info;
+            jjn.SetToolTip(JarvisJudisNinkeDithering, "This filter represents binarization filter based on error diffusion dithering with Jarvis-Judice-Ninke coefficients");
+
+            ToolTip medflt = new ToolTip();
+            medflt.IsBalloon = true;
+            medflt.ToolTipTitle = "Median of an Image";
+            medflt.ToolTipIcon = ToolTipIcon.Info;
+            medflt.SetToolTip(MedianFilter, "This filter implements median calculation to remove noise in an image");
+
+            ToolTip mirrflt = new ToolTip();
+            mirrflt.IsBalloon = true;
+            mirrflt.ToolTipTitle = "Mirror Effect";
+            mirrflt.ToolTipIcon = ToolTipIcon.Info;
+            mirrflt.SetToolTip(MirrorFilter,"This filter mirrors image around X and/or Y axis");
+
+            ToolTip satincr = new ToolTip();
+            satincr.IsBalloon = true;
+            satincr.ToolTipTitle = "Saturation Increment";
+            satincr.ToolTipIcon = ToolTipIcon.Info;
+            satincr.SetToolTip(SaturationIncrement, "The filter adjusts pixel saturation value, increasing it in HSL color space");
+
+            ToolTip satdecr = new ToolTip();
+            satdecr.IsBalloon = true;
+            satdecr.ToolTipTitle = "Saturation Decrement";
+            satdecr.ToolTipIcon = ToolTipIcon.Info;
+            satdecr.SetToolTip(SaturationDecrement, "This filter adjusts pixel saturation value, decreasing it in HSL color space");
+
+            ToolTip sisthld = new ToolTip();
+            sisthld.IsBalloon = true;
+            sisthld.ToolTipTitle = "Simple Image Statistics Threshold";
+            sisthld.ToolTipIcon = ToolTipIcon.Info;
+            sisthld.SetToolTip(SISThreshold, "This filter performs image thresholding using simple image statistics method");
+
+            ToolTip rszbc = new ToolTip();
+            rszbc.IsBalloon = true;
+            rszbc.ToolTipTitle = "Bicubic Resizing";
+            rszbc.ToolTipIcon = ToolTipIcon.Info;
+            rszbc.SetToolTip(ResizeBicubic, "The filter implements image resizing using bicubic interpolation algorithm");
+
+            ToolTip rszbl = new ToolTip();
+            rszbl.IsBalloon = true;
+            rszbl.ToolTipTitle = "Bilinear Resizing";
+            rszbl.ToolTipIcon = ToolTipIcon.Info;
+            rszbl.SetToolTip(BilinearResize, "The filter implements image resizing using bilinear interpolation algorithm");
+
+            ToolTip rsznn = new ToolTip();
+            rsznn.IsBalloon = true;
+            rsznn.ToolTipTitle = "Nearest Neighbour Resizing";
+            rsznn.ToolTipIcon = ToolTipIcon.Info;
+            rsznn.SetToolTip(NearestNeighbourResize, "The filter implements image resizing using nearest-neighbour interpolation algorithm");
+
+            ToolTip bcrtn = new ToolTip();
+            bcrtn.IsBalloon = true;
+            bcrtn.ToolTipTitle = "Bicubic Rotation";
+            bcrtn.ToolTipIcon = ToolTipIcon.Info;
+            bcrtn.SetToolTip(RotateBicubic, "The filter implements image resizing using bilinear interpolation algorithm");
         }
 
-                                                      /* Method stub for Bilateral SMoothing */
-        /* Bilateral filter conducts "selective" Gaussian smoothing of areas of same color (domains) which removes noise and contrast artifacts while preserving sharp edges */
-        /* The filter accepts 8 bpp grayscale images and 24/32 bpp color images for processing */
-        private void button2_Click(object sender, EventArgs e)
-        {
-            try
-            {                                                                  
-                Cursor.Current = Cursors.WaitCursor;
-                Form2 f2 = new Form2();
-                pictureBox1.Visible = false;
-                Bitmap bp = rgb_image;
-                if (bp != null)
-                {
-                    Bitmap temp = bp.Clone() as Bitmap;
-                    FiltersSequence fs = new FiltersSequence();
-                    fs.Add(new BilateralSmoothing());
-                    temp = fs.Apply(temp);
-                    pictureBox1.Image = new Bitmap(temp);
-                    pictureBox1.Show();
-                }
-                else
-                    MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    Cursor.Current = Cursors.Default;
-                    this.Refresh();                                               
-            }
-            catch (Exception e1)
-            {
-                MessageBox.Show("Error in Bilateral Smoothened Image","Try Again",MessageBoxButtons.OK,MessageBoxIcon.Error);
-                this.Refresh();                     
-            }
-        }
+        
+       
 
-        /* Method stub for jpg/bmp Image opening and showing to the picturebox */
-        private void button4_Click(object sender, EventArgs e)
-        {
-            Form2 f2 = new Form2();
-            string strFileName = null;
-            OpenFileDialog dialog = new OpenFileDialog();
-            dialog.Filter = "Image Files (*.jpg)|*.jpg|(*.bmp)|*.bmp|All files (*.*)|*.*";
-            dialog.InitialDirectory = @"C:\";
-            dialog.Title = "Select The Image";
-            if (dialog.ShowDialog() == DialogResult.OK)
-            {
-                strFileName = dialog.FileName;
-                Bitmap img = (Bitmap)AForge.Imaging.Image.FromFile(strFileName);
-                this.rgb_image = img;
-                pictureBox1.Image = img;
-                this.pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-                pictureBox1.Show();
-            }
-            else
-                MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                f2.Close(); 
-        }
+                                                     
+        
+       
 
-        /* Method stub for refreshing the picturebox */
-        private void button14_Click(object sender, EventArgs e)
+                                     
+
+                                   
+                                         
+        
+        /* Event stub for refreshing the picturebox */
+        private void Refresh_Click(object sender, EventArgs e)
         {
             Cursor.Current = Cursors.WaitCursor;
-            pictureBox1.Visible = false;
-            pictureBox1.Refresh();
-            pictureBox1.Update();
+            PicImageSecond.Visible = false;
+            PicImageSecond.Refresh();
+            PicImageSecond.Update();
             MessageBox.Show("Refresh Complete", "Refresh", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             Cursor.Current = Cursors.Default;
         }
-
-        /* Method stub for Image Saving */
-        private void button24_Click(object sender, EventArgs e)
+        /* Event stub for Save button */
+        private void Save_Click(object sender, EventArgs e)
         {
             try
             {
                 Cursor.Current = Cursors.WaitCursor;
                 Form2 f2 = new Form2();
-                Bitmap bp = (Bitmap)pictureBox1.Image;
+                Bitmap bp = (Bitmap)PicImageSecond.Image;
                 if (bp != null)
                 {
                     Bitmap temp = bp.Clone() as Bitmap;
@@ -296,82 +420,224 @@ namespace ImageEnhancer
                 MessageBox.Show("Saving Error Occured", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 this.Close();
             }
-          }
-
-                                    /* Method stub for Canvas Cropping of Images */
-        /* The filter fills areas outside of specified region using the specified color.
-           The filter accepts 8bpp grayscale and 24/32 bpp color images for processing */
-        private void button3_Click(object sender, EventArgs e)
+        }
+        /* Event stub for Back Button */
+        private void Back_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            this.Hide();
+            Form1 fs1 = new Form1();
+            fs1.PerformAutoScale();
+            fs1.Activate();
+            fs1.ShowDialog();       
+        }
+        /* Event stub for Next Button */
+        private void Next_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form3 fs3 = new Form3();
+            fs3.PerformAutoScale();
+            fs3.Activate();
+            fs3.ShowDialog();  
+        }
+        /* Event stub for Image opening and showing to the picturebox */
+        private void OpenImage_Click(object sender, EventArgs e)
+        {
+            Form2 f2 = new Form2();
+            string strFileName = null;
+            OpenFileDialog dialog = new OpenFileDialog();
+            dialog.Filter = "Image Files (*.jpg)|*.jpg|(*.bmp)|*.bmp|(*.png)|*.png*|(*.tiff)|*.tiff|(*.tif)|*.tif|(*.emf)|*.emf|(*.exif)|*.exif|(*.gif)|*.gif|(*.wmf)|*.wmf|All files (*.*)|*.*";
+            dialog.InitialDirectory = @"C:\";
+            dialog.Title = "Select The Image";
+            if (dialog.ShowDialog() == DialogResult.OK)
+            {
+                strFileName = dialog.FileName;
+                Bitmap img = ImageDecoder.DecodeFromFile(strFileName);                     //05.12.2013
+                //Bitmap img = (Bitmap)AForge.Imaging.Image.FromFile(strFileName);
+                this.rgb_image = img;
+                PicImageSecond.Image = img;
+                this.PicImageSecond.SizeMode = PictureBoxSizeMode.Zoom;
+                PicImageSecond.Show();
+            }
+            else
+                MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                f2.Close(); 
+        }
+        
+        /* Method stub for Additive Noise */
+        /* The filter adds random value to each pixel of the source image. The distribution of random values can be specified by random generator. 
+           The filter accepts 8 bpp grayscale images and 24 bpp color images for processing */
+        private void AdditiveNoise_Click(object sender, EventArgs e)
         {
             try
             {
                 Cursor.Current = Cursors.WaitCursor;
-                Form2 f2 = new Form2();
-                pictureBox1.Visible = false;
+                int seed_copy;                      // storing the seed value for random number generator
+                int[] max_min_copy = new int[2];   // storing max min thresholds for the random number generator                               
                 Bitmap bp = rgb_image;
                 if (bp != null)
                 {
+                    Additivenoise ans = new Additivenoise();
+                    ans.ShowDialog();
+                    max_min_copy = ans.GetValue();
+                    seed_copy = ans.GetSeed();
                     Bitmap temp = bp.Clone() as Bitmap;
+                    // create random generator                   
+                    //IRandomNumberGenerator generator = new UniformGenerator(new AForge.Range(-50, 50), 20);
+                    IRandomNumberGenerator generator = new UniformGenerator(new AForge.Range(max_min_copy[0], max_min_copy[1]), seed_copy);
+                    // create filter
                     FiltersSequence fs = new FiltersSequence();
-                    fs.Add(new CanvasCrop(new Rectangle(5, 5, temp.Width - 10, temp.Height - 10), Color.BlueViolet));
+                    fs.Add(new AdditiveNoise(generator));
+                    // apply the filter
                     temp = fs.Apply(temp);
-                    pictureBox1.Image = new Bitmap(temp);
-                    pictureBox1.Show();
+                    PicImageSecond.Image = new Bitmap(temp);
+                    PicImageSecond.Show();
+                    Cursor.Current = Cursors.Default;
+                }
+                else
+                    MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                Cursor.Current = Cursors.Default;
+                this.Refresh();
+            }
+            catch (Exception e1)
+            {
+                MessageBox.Show("Error in Selecting Images", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                this.Refresh();
+            }
+        }
+        /* Method stub for Bilateral SMoothing */
+        /* Bilateral filter conducts "selective" Gaussian smoothing of areas of same color (domains) which removes noise and contrast artifacts while preserving sharp edges */
+        /* The filter accepts 8 bpp grayscale images and 24/32 bpp color images for processing */
+        private void BilateralSmoothing_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Cursor.Current = Cursors.WaitCursor;
+                int[] param_copy = new int[3];   // to get parameter values from the BilateralSmooth.csb class
+                Bitmap bp = rgb_image;
+                if (bp != null)
+                {
+                    BilateralSmooth bsm = new BilateralSmooth();
+                    bsm.ShowDialog();
+                    param_copy = bsm.GetValue();                   
+                    Bitmap temp = bp.Clone() as Bitmap;
+                    BilateralSmoothing bs = new AForge.Imaging.Filters.BilateralSmoothing();                    
+                    bs.SpatialFactor = param_copy[0];
+                    bs.ColorFactor = param_copy[1];
+                    //bs.LimitKernelSize = false;
+                    bs.KernelSize = param_copy[2];
+                    temp = bs.Apply(temp);
+                    PicImageSecond.Image = new Bitmap(temp);
+                    PicImageSecond.Show();
+                    Cursor.Current = Cursors.Default;
                 }
                 else
                     MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     Cursor.Current = Cursors.Default;
-                    this.Refresh();                     
+                    this.Refresh();
+            }
+            catch (Exception e1)
+            {
+                MessageBox.Show("Error in Bilateral Smoothened Image", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                this.Refresh();
+            }
+        }
+        /* Method stub for Canvas Cropping of Images */
+        /* The filter fills areas outside of specified region using the specified color.
+           The filter accepts 8bpp grayscale and 24/32 bpp color images for processing */
+        private void CanvasCrop_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Cursor.Current = Cursors.WaitCursor;
+                int[] canvas_copy = new int[4];   // for getting user specific canvas cropping parameters
+                string color_copy;         // for getting user specific canvas color
+                Color mycolor;
+                Bitmap bp = rgb_image;
+                if (bp != null)
+                {
+                    CropCanvas cc = new CropCanvas();
+                    //CropCanvas cc = new CropCanvas(bp.Width, bp.Height);  // passing image width and height values to CropCanvas.cs to set the maximum canvas width and height properties 
+                    cc.ShowDialog();
+                    canvas_copy = cc.GetCanvas();
+                    //MessageBox.Show(canvas_copy[0].ToString()+"\t"+canvas_copy[1].ToString()+"\t"+canvas_copy[2].ToString()+"\t"+canvas_copy[3].ToString(),"Canvas Copy Received");
+                    color_copy = cc.GetColor();
+                    mycolor = Color.FromName(color_copy);
+                    //color_copy = Convert.ToByte(cc.GetColor());
+                    //MessageBox.Show(color_copy.ToString(),"Color Copy Received");
+                    Bitmap temp = bp.Clone() as Bitmap;                                      
+                    Rectangle rect = new Rectangle();
+                    rect.X = canvas_copy[0];
+                    rect.Y = canvas_copy[1];
+                    rect.Width = canvas_copy[2];
+                    rect.Height = canvas_copy[3];                    
+                    AForge.Imaging.Filters.CanvasCrop ccrp = new AForge.Imaging.Filters.CanvasCrop(rect,mycolor);                     
+                    temp = ccrp.Apply(temp);
+                    PicImageSecond.Image = new Bitmap(temp);
+                    PicImageSecond.Show();      
+                    Cursor.Current = Cursors.Default;
+                }
+                else
+                {
+                    MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    Cursor.Current = Cursors.Default;
+                    this.Refresh();
+                }
             }
             catch (Exception e1)
             {
                 MessageBox.Show("Error in Canvas Cropped Image", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Refresh();                     
+                this.Refresh();
             }
         }
-
-                                         /* Method stub for Normalized RGB Channel */
-        /* Extracts specified normalized RGB channel of color image and returns it as grayscale image */
-        /* The filter accepts 24, 32, 48 and 64 bpp color images and produces 8 (if source is 24 or 32 bpp image) or 16 (if source is 48 or 64 bpp image) bpp grayscale image */
-        private void button5_Click(object sender, EventArgs e)
+        /* Method stub for Bayer Filter */
+        /* which creates color image out of grayscale image produced by image sensor built with Bayer color matrix */
+        /* The filter accepts 8 bpp grayscale images and produces 24 bpp RGB image */
+        private void BayerFilter_Click(object sender, EventArgs e)
         {
             try
-            {
+            {                
                 Cursor.Current = Cursors.WaitCursor;
-                Form2 f2 = new Form2();
-                pictureBox1.Visible = false;
+                int[,] color_index_copy = new int[2, 2];                         //   copying BayerPattern property 
+                bool IsDemosaicOrNot_copy;                                      //    copying Mosaicing required property
+                BayerFilt bft = new BayerFilt();
+                bft.ShowDialog();
+                color_index_copy = bft.GetColorIndex();                      // Bayer Pattern property copied                
+                IsDemosaicOrNot_copy = bft.GetBool();                        // ImageDemosaicing property copied                
                 Bitmap bp = rgb_image;
                 if (bp != null)
                 {
                     Bitmap temp = bp.Clone() as Bitmap;
                     FiltersSequence fs = new FiltersSequence();
-                    fs.Add(new ExtractNormalizedRGBChannel(RGB.G));
-                    temp = fs.Apply(temp);
-                    pictureBox1.Image = new Bitmap(temp);
-                    pictureBox1.Show();
+                    fs.Add(Grayscale.CommonAlgorithms.BT709);
+                    temp = fs.Apply(temp);                    
+                    BayerFilter bf = new AForge.Imaging.Filters.BayerFilter();                    
+                    bf.BayerPattern = color_index_copy;
+                    bf.PerformDemosaicing = IsDemosaicOrNot_copy;
+                    temp = bf.Apply(temp);
+                    PicImageSecond.Image = new Bitmap(temp);
+                    PicImageSecond.Show();
+                    Cursor.Current = Cursors.Default;
                 }
                 else
                     MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     Cursor.Current = Cursors.Default;
-                    this.Refresh();                     
+                    this.Refresh();
             }
             catch (Exception e1)
             {
-                MessageBox.Show("Error in Normalized RGB Extracted Image", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Refresh();                     
+                MessageBox.Show("Select Different Color Combination(or)Select No Demosaicing", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                this.Refresh();
             }
         }
-
         /* Method stub for Mean Filter */
         /* The filter performs each pixel value's averaging with its 8 neighbors, which is convolution filter using the mean kernel */
         /* The filter accepts 8 and 16 bpp grayscale images and 24, 32, 48 and 64 bpp color images for processing */
-        private void button6_Click(object sender, EventArgs e)
+        private void MeanFilter_Click(object sender, EventArgs e)
         {
             try
             {
                 Cursor.Current = Cursors.WaitCursor;
-                Form2 f2 = new Form2();
-                pictureBox1.Visible = false;
                 Bitmap bp = rgb_image;
                 if (bp != null)
                 {
@@ -379,427 +645,533 @@ namespace ImageEnhancer
                     FiltersSequence fs = new FiltersSequence();
                     fs.Add(new Mean());
                     temp = fs.Apply(temp);
-                    pictureBox1.Image = new Bitmap(temp);
-                    pictureBox1.Show();
+                    PicImageSecond.Image = new Bitmap(temp);
+                    PicImageSecond.Show();
+                    Cursor.Current = Cursors.Default;
                 }
                 else
                     MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     Cursor.Current = Cursors.Default;
-                    this.Refresh();                     
+                    this.Refresh();
             }
             catch (Exception e1)
             {
                 MessageBox.Show("Error in Mean Filtered Image", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Refresh();                     
+                this.Refresh();
             }
         }
-
         /* Method stub for Water Wave filter */
         /* The image processing filter implements simple water wave effect. 
          * Using properties of the class, it is possible to set number of vertical/horizontal waves, as well as their amplitude.
            Bilinear interpolation is used to create smooth effect.
            The filter accepts 8 bpp grayscale images and 24/32 color images for processing */
-        private void button7_Click(object sender, EventArgs e)
+        private void WaterWave_Click(object sender, EventArgs e)
         {
             try
             {
                 Cursor.Current = Cursors.WaitCursor;
-                Form2 f2 = new Form2();
-                pictureBox1.Visible = false;
+                int[] return_water_thresh = new int[4];
                 Bitmap bp = rgb_image;
                 if (bp != null)
                 {
+                    WaterWaveFilter wwf = new WaterWaveFilter();
+                    wwf.ShowDialog();
+                    return_water_thresh = wwf.getValue();
                     Bitmap temp = bp.Clone() as Bitmap;
-                    FiltersSequence fs = new FiltersSequence();
-                    fs.Add(new WaterWave());
-                    temp = fs.Apply(temp);
-                    pictureBox1.Image = new Bitmap(temp);
-                    pictureBox1.Show();
+                    WaterWave ww = new WaterWave();
+                    ww.HorizontalWavesAmplitude = return_water_thresh[0];
+                    ww.HorizontalWavesCount = return_water_thresh[1];
+                    ww.VerticalWavesAmplitude = return_water_thresh[2];
+                    ww.VerticalWavesCount = return_water_thresh[3];
+                    temp = ww.Apply(temp);
+                    PicImageSecond.Image = new Bitmap(temp);
+                    PicImageSecond.Show();
+                    Cursor.Current = Cursors.Default;
                 }
                 else
                     MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     Cursor.Current = Cursors.Default;
-                    this.Refresh();                     
+                    this.Refresh();
             }
             catch (Exception e1)
             {
                 MessageBox.Show("Error in Water Waved Image", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Refresh();                     
+                this.Refresh();
             }
         }
-
-                                                 /* Method stub for Y-Cb-Cr Linear Filter */
-        /* The filter operates in YCbCr color space and provides with the facility of linear correction of its channels - mapping specified channels' input ranges to specified output ranges.
-           The filter accepts 24 and 32 bpp color images for processing */
-        private void button8_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                Cursor.Current = Cursors.WaitCursor;
-                Form2 f2 = new Form2();
-                pictureBox1.Visible = false;
-                Bitmap bp = rgb_image;
-                if (bp != null)
-                {
-                    Bitmap temp = bp.Clone() as Bitmap;
-                    FiltersSequence fs = new FiltersSequence();
-                    fs.Add(new YCbCrLinear());
-                    temp = fs.Apply(temp);
-                    pictureBox1.Image = new Bitmap(temp);
-                    pictureBox1.Show();
-                }
-                else
-                    MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    Cursor.Current = Cursors.Default;
-                    this.Refresh();                     
-            }
-            catch (Exception e1)
-            {
-                MessageBox.Show("Error in YCbCr Linear Image", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Refresh();                     
-            }
-        }
-
-                                                            /* Method stub for YCbCr Filter */
-        /* The filter operates in YCbCr color space and filters pixels, which color is inside/outside of the specified YCbCr range - it keeps pixels with colors inside/outside of the specified range and fills the rest with specified color.
-           The filter accepts 24 and 32 bpp color images for processing */
-        private void button9_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                Cursor.Current = Cursors.WaitCursor;
-                Form2 f2 = new Form2();
-                pictureBox1.Visible = false;
-                Bitmap bp = rgb_image;
-                if (bp != null)
-                {
-                    Bitmap temp = bp.Clone() as Bitmap;
-                    FiltersSequence fs = new FiltersSequence();
-                    fs.Add(new YCbCrFiltering());
-                    temp = fs.Apply(temp);
-                    pictureBox1.Image = new Bitmap(temp);
-                    pictureBox1.Show();
-                }
-                else
-                    MessageBox.Show("Select the Image","Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    Cursor.Current = Cursors.Default;
-                    this.Refresh();                     
-            }
-            catch (Exception e1)
-            {
-                MessageBox.Show("Error in YCbCr Image", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Refresh();                     
-            }
-        }
-
-                                         /* Method stub for YCbCr Channel Extraction filter */
-        /* The filter extracts specified YCbCr channel of color image and returns it in the form of grayscale image.
-           The filter accepts 24 and 32 bpp color images and produces 8 bpp grayscale images */
-        private void button10_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                Cursor.Current = Cursors.WaitCursor;
-                Form2 f2 = new Form2();
-                pictureBox1.Visible = false;
-                Bitmap bp = rgb_image;
-                if (bp != null)
-                {
-                    Bitmap temp = bp.Clone() as Bitmap;
-                    FiltersSequence fs = new FiltersSequence();
-                    fs.Add(new YCbCrExtractChannel());
-                    temp = fs.Apply(temp);
-                    pictureBox1.Image = new Bitmap(temp);
-                    pictureBox1.Show();
-                }
-                else
-                    MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    Cursor.Current = Cursors.Default;
-                    this.Refresh();                     
-            }
-            catch (Exception e1)
-            {
-                MessageBox.Show("Error in YCbCr Extracted Image", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Refresh();                     
-            }
-        }
-
-                                        /* Method stub for Transforming to polar image */
-        /* The image processing routine does transformation of the source image into circle (polar transformation). 
-         * The produced effect is similar to GIMP's "Polar Coordinates" distortion filter (or its equivalent in Photoshop). 
-           The filter accepts 8 bpp grayscale and 24/32 bpp color images for processing */
-        private void button11_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                Cursor.Current = Cursors.WaitCursor;
-                Form2 f2 = new Form2();
-                pictureBox1.Visible = false;
-                Bitmap bp = rgb_image;
-                if (bp != null)
-                {
-                    Bitmap temp = bp.Clone() as Bitmap;
-                    FiltersSequence fs = new FiltersSequence();
-                    fs.Add(new TransformToPolar());
-                    temp = fs.Apply(temp);
-                    pictureBox1.Image = new Bitmap(temp);
-                    pictureBox1.Show();
-                }
-                else
-                    MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    Cursor.Current = Cursors.Default;
-                    this.Refresh();                     
-            }
-            catch(Exception e1)
-            {
-                MessageBox.Show("Error in Polar transformed Image", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Refresh();                     
-            }
-        }
-
-                                                          /* Method stub for Transforming from polar image */
-        /* The image processing routine is oposite transformation to the one done by TransformToPolar routine, i.e. transformation from polar image into rectangle.
-         * The produced effect is similar to GIMP's "Polar Coordinates" distortion filter (or its equivalent in Photoshop). 
-           The filter accepts 8 bpp grayscale and 24/32 bpp color images for processing */
-        private void button12_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                Cursor.Current = Cursors.WaitCursor;
-                Form2 f2 = new Form2();
-                pictureBox1.Visible = false;
-                Bitmap bp = rgb_image;
-                if (bp != null)
-                {
-                    Bitmap temp = bp.Clone() as Bitmap;
-                    FiltersSequence fs = new FiltersSequence();
-                    fs.Add(new TransformFromPolar());
-                    temp = fs.Apply(temp);
-                    pictureBox1.Image = new Bitmap(temp);
-                    pictureBox1.Show();
-                }
-                else
-                    MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    Cursor.Current = Cursors.Default;
-                    this.Refresh();                     
-            }
-            catch (Exception e1)
-            {
-                MessageBox.Show("Error in Transforming from Polar Image", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Refresh();                     
-            }
-        }
-
-                                                 /* Method stub for HSL Filtering */
+        /* Method stub for HSL Filtering */
         /* The filter operates in HSL color space and filters pixels, which color is inside/outside of the specified HSL range - it keeps pixels with colors inside/outside of the specified range and fills the rest with specified color.
            The filter accepts 24 and 32 bpp color images for processing */
-        private void button13_Click(object sender, EventArgs e)
+        private void HSLFilter_Click(object sender, EventArgs e)
         {
             try
             {
                 Cursor.Current = Cursors.WaitCursor;
-                Form2 f2 = new Form2();
-                pictureBox1.Visible = false;
+                int[] hue1 = new int[2];                       // for storing max_hue and min_hue values
+                float[] lum1 = new float[2];                   // for storing max_lum and min_lum values
+                float[] sat1 = new float[2];                   // for storing max_sat and min_lum values
+                bool[] update1 = new bool[3];                  // for storing hue, luminance and saturation updatable boolean values                             
                 Bitmap bp = rgb_image;
                 if (bp != null)
                 {
+                    HSLFilter hsf = new HSLFilter();
+                    hsf.ShowDialog();
+                    hue1 = hsf.GetHue();
+                    lum1 = hsf.GetLuminance();
+                    sat1 = hsf.GetSaturation();
+                    update1 = hsf.GetBool();
                     Bitmap temp = bp.Clone() as Bitmap;
-                    FiltersSequence fs = new FiltersSequence();
-                    //HSLFiltering hs = new HSLFiltering();
-                    fs.Add(new HSLFiltering());
+                    HSLFiltering fs = new HSLFiltering();
+                    fs.Hue = new IntRange(hue1[0], hue1[1]);
+                    fs.UpdateHue = update1[0];
+                    fs.Luminance = new Range(lum1[0], lum1[1]);
+                    fs.UpdateLuminance = update1[1];
+                    fs.Saturation = new Range(sat1[0], sat1[1]);
+                    fs.UpdateSaturation = update1[2];
                     temp = fs.Apply(temp);
-                    pictureBox1.Image = new Bitmap(temp);
-                    pictureBox1.Show();
+                    PicImageSecond.Image = new Bitmap(temp);
+                    PicImageSecond.Show();
+                    Cursor.Current = Cursors.Default;
                 }
                 else
                     MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     Cursor.Current = Cursors.Default;
-                    this.Refresh();                     
+                    this.Refresh();
             }
             catch (Exception e1)
             {
                 MessageBox.Show("Error in HSL filtered Image", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Refresh();                     
+                this.Refresh();
             }
         }
-
-                                                 /* Method stub for Stucki Dithering */
-        /* The filter represents binarization filter, which is based on error diffusion dithering with Stucki coefficients. 
-         * Error is diffused on 12 neighbor pixels with next coefficients */
-        private void button15_Click(object sender, EventArgs e)
+        /* Method stub for YCbCr Filter */
+        /* The filter operates in YCbCr color space and filters pixels, which color is inside/outside of the specified YCbCr range 
+         * - it keeps pixels with colors inside/outside of the specified range and fills the rest with specified color.
+           The filter accepts 24 and 32 bpp color images for processing */
+        private void YCbCrColor_Click(object sender, EventArgs e)
         {
             try
             {
                 Cursor.Current = Cursors.WaitCursor;
-                Form2 f2 = new Form2();
-                pictureBox1.Visible = false;
+                Range Cb_copy, Cr_copy;
+                ColorYCbCr cycbcr = new ColorYCbCr();
+                cycbcr.ShowDialog();
+                Cb_copy = cycbcr.GetCb();
+                Cr_copy = cycbcr.GetCr();                
                 Bitmap bp = rgb_image;
                 if (bp != null)
                 {
-                    Bitmap temp = bp.Clone() as Bitmap;
-                    FiltersSequence fs = new FiltersSequence();
-                    fs.Add(Grayscale.CommonAlgorithms.BT709);
-                    fs.Add(new StuckiDithering());
-                    temp = fs.Apply(temp);
-                    pictureBox1.Image = new Bitmap(temp);
-                    pictureBox1.Show();
+                    Bitmap temp = bp.Clone() as Bitmap;                    
+                    YCbCrFiltering filter = new YCbCrFiltering();
+                    filter.Cb = Cb_copy;
+                    filter.Cr = Cr_copy;                    
+                    temp = filter.Apply(temp);                    
+                    PicImageSecond.Image = new Bitmap(temp);
+                    PicImageSecond.Show();
+                    Cursor.Current = Cursors.Default;
                 }
                 else
                     MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     Cursor.Current = Cursors.Default;
-                    this.Refresh();                     
+                    this.Refresh();
+            }
+            catch (Exception e1)
+            {
+                MessageBox.Show("Error in YCbCr Image", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                this.Refresh();
+            }
+        }
+        /* Method stub for YCbCr Channel Extraction filter */
+        /* The filter extracts specified YCbCr channel of color image and returns it in the form of grayscale image.
+           The filter accepts 24 and 32 bpp color images and produces 8 bpp grayscale images */
+        private void YCbCrExtract_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Cursor.Current = Cursors.WaitCursor;
+                Bitmap bp = rgb_image;
+                string choice_copy;                
+                if (bp != null)
+                {
+                    ExtractYCbCr ecbcr = new ExtractYCbCr();
+                    ecbcr.ShowDialog();
+                    choice_copy = ecbcr.GetString();                   
+                    Bitmap temp = bp.Clone() as Bitmap;
+                    //FiltersSequence fs = new FiltersSequence();
+                    //fs.Add(new YCbCrExtractChannel());                    
+                    if (choice_copy == "cbindex")
+                    {
+                       YCbCrExtractChannel fs = new YCbCrExtractChannel(YCbCr.CbIndex);
+                       temp = fs.Apply(temp);
+                       PicImageSecond.Image = new Bitmap(temp);
+                       PicImageSecond.Show();
+                       Cursor.Current = Cursors.Default;
+                    }
+                    else if (choice_copy == "crindex")
+                    {
+                        YCbCrExtractChannel fs = new YCbCrExtractChannel(YCbCr.CrIndex);
+                        temp = fs.Apply(temp);
+                        PicImageSecond.Image = new Bitmap(temp);
+                        PicImageSecond.Show();
+                        Cursor.Current = Cursors.Default;
+                    }
+                    else if (choice_copy == "yindex")
+                    {
+                        YCbCrExtractChannel fs = new YCbCrExtractChannel(YCbCr.YIndex);
+                        temp = fs.Apply(temp);
+                        PicImageSecond.Image = new Bitmap(temp);
+                        PicImageSecond.Show();
+                        Cursor.Current = Cursors.Default;
+                    }
+                    else
+                    {
+                        YCbCrExtractChannel fs = new YCbCrExtractChannel(YCbCr.YIndex);       // default value for YCbCr index 
+                        temp = fs.Apply(temp);
+                        PicImageSecond.Image = new Bitmap(temp);
+                        PicImageSecond.Show();
+                        Cursor.Current = Cursors.Default;
+                    }                    
+                }
+                else
+                    MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    Cursor.Current = Cursors.Default;
+                    this.Refresh();
+            }
+            catch (Exception e1)
+            {
+                MessageBox.Show("Error in YCbCr Extracted Image", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                this.Refresh();
+            }
+        }
+        /* Method stub for Transforming to polar image */
+        /* The image processing routine does transformation of the source image into circle (polar transformation). 
+         * The produced effect is similar to GIMP's "Polar Coordinates" distortion filter (or its equivalent in Photoshop). 
+           The filter accepts 8 bpp grayscale and 24/32 bpp color images for processing */
+        private void TransformToPolar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Cursor.Current = Cursors.WaitCursor;
+                double[] temp1 = new double[2];
+                string fillcolor;
+                bool[] temp2 = new bool[3];
+                int[] temp3 = new int[2];
+                Bitmap bp = rgb_image;
+                if (bp != null)
+                {
+                    TransformToPolarImage tfp = new TransformToPolarImage();
+                    tfp.ShowDialog();
+                    temp1 = tfp.GetDouble();
+                    temp2 = tfp.GetBool();
+                    temp3 = tfp.GetInt();    // getting image size (width and height) property
+                    fillcolor = tfp.GetString();  // getting fill color property
+                    Bitmap temp = bp.Clone() as Bitmap;
+                    TransformToPolar fs = new TransformToPolar();
+                    fs.CirlceDepth = temp1[0];                                        // 'Circularity Coefficient' property
+                    fs.OffsetAngle = temp1[1];                                        // 'Offset Angle' property
+                    fs.UseOriginalImageSize = temp2[2];                               // 'Use Original Image Size or Not' property 
+                    fs.NewSize = new System.Drawing.Size(temp3[0], temp3[1]);         // 'Image Size' property
+                    fs.FillColor = Color.FromName(fillcolor);                         // 'fillcolor' property 
+                    fs.MapFromTop = temp2[1];                                         // 'MapfromTop' property
+                    fs.MapBackwards = temp2[0];                                       // 'MapBackwords' property
+                    temp = fs.Apply(temp);
+                    PicImageSecond.Image = new Bitmap(temp);
+                    PicImageSecond.Show();
+                    Cursor.Current = Cursors.Default;
+                }
+                else
+                    MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    Cursor.Current = Cursors.Default;
+                    this.Refresh();
+            }
+            catch (Exception e1)
+            {
+                MessageBox.Show("Error in Polar transformed Image", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                this.Refresh();
+            }
+        }
+        /* Method stub for Transforming from polar image */
+        /* The image processing routine is oposite transformation to the one done by TransformToPolar routine, i.e. transformation from polar image into rectangle.
+         * The produced effect is similar to GIMP's "Polar Coordinates" distortion filter (or its equivalent in Photoshop). 
+           The filter accepts 8 bpp grayscale and 24/32 bpp color images for processing */
+        private void TransformFromPolar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Cursor.Current = Cursors.WaitCursor;
+                double[] temp1 = new double[2];
+                bool[] temp2 = new bool[3];
+                int[] temp3 = new int[2];   //30.11.2013                             
+                Bitmap bp = rgb_image;
+                if (bp != null)
+                {
+                    TransformFromPolarImage tfpi = new TransformFromPolarImage();
+                    tfpi.ShowDialog();
+                    temp1 = tfpi.GetDouble();
+                    temp2 = tfpi.GetBool();
+                    temp3 = tfpi.GetInt();    // getting image size (width and height) property, 30.11.2013
+                    //fillcolor = tfpi.GetString();  // getting fill color property, 30.11.2013
+                    Bitmap temp = bp.Clone() as Bitmap;
+                    TransformFromPolar fs1 = new TransformFromPolar();
+                    fs1.CirlceDepth = temp1[0];                                        // 'Circularity Coefficient' property
+                    fs1.OffsetAngle = temp1[1];                                        // 'Offset Angle' property
+                    fs1.UseOriginalImageSize = temp2[2];                               // 'Use Original Image Size or Not' property 
+                    fs1.NewSize = new System.Drawing.Size(temp3[0], temp3[1]);         // 'Image Size' property
+                    //fs1.FillColor = Color.FromName(fillcolor);                         // 'fillcolor' property 
+                    fs1.MapFromTop = temp2[1];                                         // 'MapfromTop' property
+                    fs1.MapBackwards = temp2[0];                                       // 'MapBackwords' property                    
+                    temp = fs1.Apply(temp);
+                    PicImageSecond.Image = new Bitmap(temp);
+                    PicImageSecond.Show();
+                    Cursor.Current = Cursors.Default;
+                }
+                else
+                    MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    Cursor.Current = Cursors.Default;
+                    this.Refresh();
+            }
+            catch (Exception e1)
+            {
+                MessageBox.Show("Error in Transforming from Polar Image", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                this.Refresh();
+            }
+
+        }
+        /* Method stub for Y-Cb-Cr Linear Filter */
+        /* The filter operates in YCbCr color space and provides with the facility of linear correction of its channels 
+         * - mapping specified channels' input ranges to specified output ranges.
+           The filter accepts 24 and 32 bpp color images for processing */
+        private void YCbCrLinear_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Cursor.Current = Cursors.WaitCursor;
+                Range Cb_copy, Cr_copy;
+                LinearYCbCr L = new LinearYCbCr();
+                L.ShowDialog();
+                Cb_copy = L.GetCb();
+                Cr_copy = L.GetCr();
+                Bitmap bp = rgb_image;
+                if (bp != null)
+                {
+                    Bitmap temp = bp.Clone() as Bitmap;
+                    YCbCrLinear ycbcrl = new AForge.Imaging.Filters.YCbCrLinear();
+                    ycbcrl.InCb = Cb_copy;
+                    ycbcrl.InCr = Cr_copy;                    
+                    temp = ycbcrl.Apply(temp);
+                    PicImageSecond.Image = new Bitmap(temp);
+                    PicImageSecond.Show();
+                    Cursor.Current = Cursors.Default;
+                }
+                else
+                    MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    Cursor.Current = Cursors.Default;
+                    this.Refresh(); 
+            }
+            catch (Exception e1)
+            {
+                MessageBox.Show("Error in YCbCr Linear Image", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                this.Refresh();
+            }
+        }
+        /* Method stub for Stucki Dithering */
+        /* The filter represents binarization filter, which is based on error diffusion dithering with Stucki coefficients. 
+         * Error is diffused on 12 neighbor pixels with next coefficients */
+        private void StuckiDithering_Click(object sender, EventArgs e) 
+        {
+            try
+            {
+                Cursor.Current = Cursors.WaitCursor;
+                byte threshold_copy;                  // for taking threshold value from SuckiDither.cs 
+                Bitmap bp = rgb_image;
+                if (bp != null)
+                {
+                    StuckiDither sd = new StuckiDither();
+                    sd.ShowDialog();
+                    threshold_copy = sd.GetByte();   //accepting byte value for stucki threshold
+                    Bitmap temp = bp.Clone() as Bitmap;
+                    FiltersSequence fs = new FiltersSequence();
+                    fs.Add(Grayscale.CommonAlgorithms.BT709);
+                    //fs.Add(new StuckiDithering());
+                    temp = fs.Apply(temp);
+                    StuckiDithering sdt = new AForge.Imaging.Filters.StuckiDithering();
+                    sdt.ThresholdValue = threshold_copy;
+                    temp = sdt.Apply(temp);
+                    PicImageSecond.Image = new Bitmap(temp);
+                    PicImageSecond.Show();
+                    Cursor.Current = Cursors.Default;
+                }
+                else
+                    MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    Cursor.Current = Cursors.Default;
+                    this.Refresh();
             }
             catch (Exception e1)
             {
                 MessageBox.Show("Error in Stucki Dithered Image", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Refresh();                     
+                this.Refresh();
             }
         }
-
-                                    /* Method stub for binarized simple skeletonization filter */
+        /* Method stub for binarized simple skeletonization filter */
         /* The filter build simple objects' skeletons by thinning them until they have one pixel wide "bones" horizontally and vertically.
          * The filter uses Background and Foreground colors to distinguish between object and background.
            The filter accepts 8 bpp grayscale images for processing */
-        private void button16_Click(object sender, EventArgs e)
+        private void SimpleSkeleton_Click(object sender, EventArgs e)
         {
             try
             {
                 Cursor.Current = Cursors.WaitCursor;
-                Form2 f2 = new Form2();
-                pictureBox1.Visible = false;
+                byte[] back_fore_value = new byte[2];  // for storing background and foreground pixel value                        
                 Bitmap bp = rgb_image;
                 if (bp != null)
                 {
+                    SimpleSkeleton ss = new SimpleSkeleton();
+                    ss.ShowDialog();
+                    back_fore_value = ss.GetByte();
                     Bitmap temp = bp.Clone() as Bitmap;
                     FiltersSequence fs = new FiltersSequence();
                     fs.Add(Grayscale.CommonAlgorithms.BT709);
                     fs.Add(new Threshold(100));
-                    fs.Add(new SimpleSkeletonization());
+                    fs.Add(new SimpleSkeletonization(back_fore_value[0], back_fore_value[1]));  // passing background and foreground pixel values to simple skeletonization filter
                     temp = fs.Apply(temp);
-                    pictureBox1.Image = new Bitmap(temp);
-                    pictureBox1.Show();
+                    PicImageSecond.Image = new Bitmap(temp);
+                    PicImageSecond.Show();
+                    Cursor.Current = Cursors.Default;
                 }
                 else
                     MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     Cursor.Current = Cursors.Default;
-                    this.Refresh();                     
+                    this.Refresh();
             }
             catch (Exception e1)
             {
                 MessageBox.Show("Error in Simple Skeletonian Image", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Refresh();                     
+                this.Refresh();
             }
         }
-
-        /* Method stub for Bayer Filter */
-        /* which creates color image out of grayscale image produced by image sensor built with Bayer color matrix */
-        /* The filter accepts 8 bpp grayscale images and produces 24 bpp RGB image */
-        private void button17_Click(object sender, EventArgs e)
+        /* Method stub for Normalized RGB Channel */
+        /* Extracts specified normalized RGB channel of color image and returns it as grayscale image */
+        /* The filter accepts 24, 32, 48 and 64 bpp color images and produces 8 (if source is 24 or 32 bpp image)
+         * or 16 (if source is 48 or 64 bpp image) bpp grayscale image */
+        private void ExtractNormalized_Click(object sender, EventArgs e)
         {
             try
             {
                 Cursor.Current = Cursors.WaitCursor;
-                Form2 f2 = new Form2();
-                pictureBox1.Visible = false;
+                short channel_value;
                 Bitmap bp = rgb_image;
                 if (bp != null)
                 {
+                    NormalizedExtraction ne = new NormalizedExtraction();
+                    ne.ShowDialog();
+                    channel_value = ne.GetShort();
                     Bitmap temp = bp.Clone() as Bitmap;
                     FiltersSequence fs = new FiltersSequence();
-                    fs.Add(Grayscale.CommonAlgorithms.BT709);
-                    fs.Add(new BayerFilter());
+                    fs.Add(new ExtractNormalizedRGBChannel(channel_value));
                     temp = fs.Apply(temp);
-                    pictureBox1.Image = new Bitmap(temp);
-                    pictureBox1.Show();
+                    PicImageSecond.Image = new Bitmap(temp);
+                    PicImageSecond.Show();
+                    Cursor.Current = Cursors.Default;
                 }
                 else
                     MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     Cursor.Current = Cursors.Default;
-                    this.Refresh();                     
+                    this.Refresh();
             }
             catch (Exception e1)
             {
-                MessageBox.Show("Error in Bayer Filtered Image", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Refresh();                     
+                MessageBox.Show("Error in Normalized RGB Extracted Image", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                this.Refresh();
             }
         }
-
-                                            /* Method stub for Channel Filtering */
+        /* Method stub for Channel Filtering */
         /* The filter does color channels' filtering by clearing (filling with specified values) values, which are inside/outside of the specified value's range. 
          * The filter allows to fill certain ranges of RGB color channels with specified value */
         /* The filter accepts 24 and 32 bpp color images for processing */
-        private void button18_Click(object sender, EventArgs e)
+        private void ChannelFiltering_Click(object sender, EventArgs e)
         {
             try
             {
                 Cursor.Current = Cursors.WaitCursor;
-                Form2 f2 = new Form2();
-                pictureBox1.Visible = false;
+                int[] tempred = new int[2];
+                int[] tempgreen = new int[2];
+                int[] tempblue = new int[2];
                 Bitmap bp = rgb_image;
                 if (bp != null)
                 {
+                    ChannelFilter cf = new ChannelFilter();
+                    cf.ShowDialog();
+                    tempred = cf.getRed();
+                    tempgreen = cf.getGreen();
+                    tempblue = cf.getBlue();
+                    IntRange ired = new IntRange(tempred[0], tempred[1]);
+                    IntRange igreen = new IntRange(tempgreen[0], tempgreen[1]);
+                    IntRange iblue = new IntRange(tempblue[0], tempblue[1]);
                     Bitmap temp = bp.Clone() as Bitmap;
-                    FiltersSequence fs = new FiltersSequence();
                     ChannelFiltering cfl = new ChannelFiltering();
-                    fs.Add(cfl);
-                    temp = fs.Apply(temp);
-                    pictureBox1.Image = new Bitmap(temp);
-                    pictureBox1.Show();
+                    cfl.Red = ired;
+                    cfl.Green = igreen;
+                    cfl.Blue = iblue;
+                    temp = cfl.Apply(temp);
+                    PicImageSecond.Image = new Bitmap(temp);
+                    PicImageSecond.Show();
+                    Cursor.Current = Cursors.Default;
                 }
                 else
                     MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     Cursor.Current = Cursors.Default;
-                    this.Refresh();                     
+                    this.Refresh();
             }
             catch (Exception e1)
             {
                 MessageBox.Show("Error in Channel Filtered Image", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Refresh();                     
+                this.Refresh();
             }
         }
-
-                                      /* Method stub for Conservative Smoothing */
-/* The filter implements conservative smoothing, which is a noise reduction technique that derives its name from the fact that it employs a simple, fast filtering algorithm that sacrifices noise suppression power in order to preserve the high spatial frequency detail (e.g. sharp edges) in an image */
+        /* Method stub for Conservative Smoothing */
+        /* The filter implements conservative smoothing, which is a noise reduction technique that derives its name from the fact
+         * that it employs a simple, fast filtering algorithm that sacrifices noise suppression power in order to preserve the high 
+         * spatial frequency detail (e.g. sharp edges) in an image */
         /* The filter accepts 8 bpp grayscale images and 24/32 bpp color images for processing */
-        private void button19_Click(object sender, EventArgs e)
+        private void ConservativeSmoothing_Click(object sender, EventArgs e)
         {
             try
             {
                 Cursor.Current = Cursors.WaitCursor;
-                Form2 f2 = new Form2();
-                pictureBox1.Visible = false;
+                int kernel_size;
                 Bitmap bp = rgb_image;
                 if (bp != null)
                 {
+                    ConservativeSmooth csm = new ConservativeSmooth();
+                    csm.ShowDialog();
+                    kernel_size = csm.getValue();
                     Bitmap temp = bp.Clone() as Bitmap;
                     FiltersSequence fs = new FiltersSequence();
-                    fs.Add(new ConservativeSmoothing());
+                    fs.Add(new ConservativeSmoothing(kernel_size));
                     temp = fs.Apply(temp);
-                    pictureBox1.Image = new Bitmap(temp);
-                    pictureBox1.Show();
+                    PicImageSecond.Image = new Bitmap(temp);
+                    PicImageSecond.Show();
+                    Cursor.Current = Cursors.Default;
                 }
                 else
                     MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     Cursor.Current = Cursors.Default;
-                    this.Refresh();                     
+                    this.Refresh();
             }
             catch (Exception e1)
             {
                 MessageBox.Show("Error in Conservative Smoothened Image", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Refresh();                     
+                this.Refresh();
             }
         }
-
-                                            /* Method stub for Susan Corner Detector */
+        /* Method stub for Susan Corner Detector */
         /* Susan Corner Detector, Analyzing each pixel and searching for its USAN area, the 7x7 mask is used, which is comprised of 37 pixels.
          * The mask has circle shape */
-        private void button20_Click(object sender, EventArgs e)
+        private void SusanCornerDetection_Click(object sender, EventArgs e)
         {
             try
             {
                 Cursor.Current = Cursors.WaitCursor;
-                Form2 f2 = new Form2();
-                pictureBox1.Visible = false;
                 Bitmap bp = rgb_image;
                 if (bp != null)
                 {
@@ -810,376 +1182,379 @@ namespace ImageEnhancer
                     fs.Add(Grayscale.CommonAlgorithms.BT709);
                     fs.Add(filt);
                     temp = fs.Apply(temp);
-                    pictureBox1.Image = new Bitmap(temp);
-                    pictureBox1.Show();
+                    PicImageSecond.Image = new Bitmap(temp);
+                    PicImageSecond.Show();
+                    Cursor.Current = Cursors.Default;
                 }
                 else
                     MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     Cursor.Current = Cursors.Default;
-                    this.Refresh();                     
+                    this.Refresh();
             }
             catch (Exception e1)
             {
                 MessageBox.Show("Error in Susan Corner Detected Image", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Refresh();                     
+                this.Refresh();
             }
         }
-
-                                          /* Method stub for Jarvis Judis Ninke Dithering */
+        /* Method stub for Jarvis Judis Ninke Dithering */
         /* Dithering using Jarvis, Judice and Ninke error diffusion */
         /* The filter represents binarization filter, which is based on error diffusion dithering with Jarvis-Judice-Ninke coefficients. 
          * Error is diffused on 12 neighbor pixels with next coefficients */
-        private void button21_Click(object sender, EventArgs e)
+        private void JarvisJudisNinkeDithering_Click(object sender, EventArgs e)
         {
             try
             {
                 Cursor.Current = Cursors.WaitCursor;
-                Form2 f2 = new Form2();
-                pictureBox1.Visible = false;
                 Bitmap bp = rgb_image;
+                byte threshold_copy;    // for copying Jarvis Judis Ninke Threshold
                 if (bp != null)
                 {
+                    JJNDither jjd = new JJNDither();
+                    jjd.ShowDialog();
+                    threshold_copy = jjd.GetByte();    // thresholded byte value 
                     Bitmap temp = bp.Clone() as Bitmap;
                     FiltersSequence fs = new FiltersSequence();
                     fs.Add(Grayscale.CommonAlgorithms.BT709);
-                    fs.Add(new JarvisJudiceNinkeDithering());
+                    //fs.Add(new JarvisJudiceNinkeDithering());
                     temp = fs.Apply(temp);
-                    pictureBox1.Image = new Bitmap(temp);
-                    pictureBox1.Show();
+                    JarvisJudiceNinkeDithering jd = new JarvisJudiceNinkeDithering();
+                    jd.ThresholdValue = threshold_copy;
+                    temp = jd.Apply(temp);
+                    PicImageSecond.Image = new Bitmap(temp);
+                    PicImageSecond.Show();
+                    Cursor.Current = Cursors.Default;
                 }
                 else
                     MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     Cursor.Current = Cursors.Default;
-                    this.Refresh();                     
+                    this.Refresh();
             }
             catch (Exception e1)
             {
                 MessageBox.Show("Error in JJN Dithered Image", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Refresh();                     
+                this.Refresh();
             }
         }
-
-                                        /* Method stub for Median Filter */
+        /* Method stub for Median Filter */
         /* The median filter is normally used to reduce noise in an image, somewhat like the mean filter.
          * However, it often does a better job than the mean filter of preserving useful detail in the image */
         /* The filter accepts 8 bpp grayscale images and 24/32 bpp color images for processing */
-        private void button22_Click(object sender, EventArgs e)
+        private void MedianFilter_Click(object sender, EventArgs e)
         {
             try
             {
                 Cursor.Current = Cursors.WaitCursor;
-                Form2 f2 = new Form2();
-                pictureBox1.Visible = false;
+                int medfilter_box;
                 Bitmap bp = rgb_image;
                 if (bp != null)
                 {
+                    MedianFilter mf = new MedianFilter();
+                    mf.ShowDialog();
+                    medfilter_box = mf.getValue();
                     Bitmap temp = bp.Clone() as Bitmap;
                     FiltersSequence fs = new FiltersSequence();
-                    fs.Add(Grayscale.CommonAlgorithms.BT709);
-                    fs.Add(new Median());
+                    fs.Add(new Median(medfilter_box));
                     temp = fs.Apply(temp);
-                    pictureBox1.Image = new Bitmap(temp);
-                    pictureBox1.Show();
+                    PicImageSecond.Image = new Bitmap(temp);
+                    PicImageSecond.Show();
+                    Cursor.Current = Cursors.Default;
                 }
                 else
                     MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     Cursor.Current = Cursors.Default;
-                    this.Refresh();                     
+                    this.Refresh();
             }
             catch (Exception e1)
             {
-                MessageBox.Show("Error in Median Filtered Image","Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Refresh();                     
+                MessageBox.Show("Error in Median Filtered Image", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                this.Refresh();
             }
-        }       
-
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
         }
-
-                                        /* Method stub for Mirror Filter */
+        /* Method stub for Mirror Filter */
         /* The filter mirrors image around X and/or Y axis (horizontal and vertical mirroring).
            The filter accepts 8 bpp grayscale images and 24 bpp color images for processing */
-        private void button23_Click_1(object sender, EventArgs e)
+        private void MirrorFilter_Click(object sender, EventArgs e)
         {
             try
             {
                 Cursor.Current = Cursors.WaitCursor;
-                Form2 f2 = new Form2();
-                pictureBox1.Visible = false;
+                bool mirrorfilter_hoption, mirrorfilter_voption;
                 Bitmap bp = rgb_image;
                 if (bp != null)
                 {
+                    MirrorEffect me = new MirrorEffect();
+                    me.ShowDialog();
+                    mirrorfilter_hoption = Convert.ToBoolean(me.getHorzValue());     // fetching the horizontal option value for the mirror filter
+                    mirrorfilter_voption = Convert.ToBoolean(me.getVertValue());    // fetching the vertical option value for the mirror filter
                     Bitmap temp = bp.Clone() as Bitmap;
                     FiltersSequence fs = new FiltersSequence();
-                    fs.Add(new Mirror(false, true));
+                    if ((mirrorfilter_hoption == true) && (mirrorfilter_voption == false))
+                        fs.Add(new Mirror(mirrorfilter_hoption, mirrorfilter_voption));
+                    else if ((mirrorfilter_hoption == false) && (mirrorfilter_voption == true))
+                        fs.Add(new Mirror(mirrorfilter_hoption, mirrorfilter_voption));
+                    else
+                        MessageBox.Show("Hopeless Result", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     temp = fs.Apply(temp);
-                    pictureBox1.Image = new Bitmap(temp);
-                    pictureBox1.Show();
+                    PicImageSecond.Image = new Bitmap(temp);
+                    PicImageSecond.Show();
+                    Cursor.Current = Cursors.Default;
                 }
                 else
                     MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     Cursor.Current = Cursors.Default;
-                    this.Refresh();                     
+                    this.Refresh();
             }
             catch (Exception e1)
             {
                 MessageBox.Show("Error in Mirrored Image", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Refresh();                     
+                this.Refresh();
             }
         }
-
-                                                /* Method stub for Saturation Incrementation */
+        /* Method stub for Saturation Incrementation */
         /* The filter operates in HSL color space and adjusts pixels' saturation value, increasing it or decreasing by specified percentage.
          * The filters is based on HSLLinear filter, passing work to it after recalculating saturation adjust value to input/output ranges of the HSLLinear filter.
            The filter accepts 24 and 32 bpp color images for processing */
-        private void button25_Click(object sender, EventArgs e)
+        private void SaturationIncrement_Click(object sender, EventArgs e)
         {
             try
             {
                 Cursor.Current = Cursors.WaitCursor;
-                Form2 f2 = new Form2();
-                pictureBox1.Visible = false;
+                double final_threshold_satincrement;    // storing the final saturation increment threshold value                                 
                 Bitmap bp = rgb_image;
                 if (bp != null)
                 {
+                    SatuIncrement satinc = new SatuIncrement();
+                    satinc.ShowDialog();
+                    final_threshold_satincrement = satinc.getValue();
                     Bitmap temp = bp.Clone() as Bitmap;
                     FiltersSequence fs = new FiltersSequence();
-                    fs.Add(new SaturationCorrection(0.5f));
+                    fs.Add(new SaturationCorrection((float)final_threshold_satincrement));
                     temp = fs.Apply(temp);
-                    pictureBox1.Image = new Bitmap(temp);
-                    pictureBox1.Show();
+                    PicImageSecond.Image = new Bitmap(temp);
+                    PicImageSecond.Show();
+                    Cursor.Current = Cursors.Default;
                 }
                 else
                     MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     Cursor.Current = Cursors.Default;
-                    this.Refresh();                     
+                    this.Refresh();
             }
             catch (Exception e1)
             {
                 MessageBox.Show("Error in Saturation Correction(Increment)", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Refresh();                     
+                this.Refresh();
             }
         }
-
-                                                     /* Method stub for Saturation Decrement */
+        /* Method stub for Saturation Decrement */
         /* The filter operates in HSL color space and adjusts pixels' saturation value, increasing it or decreasing by specified percentage.
          * The filters is based on HSLLinear filter, passing work to it after recalculating saturation adjust value to input/output ranges of the HSLLinear filter.
            The filter accepts 24 and 32 bpp color images for processing */
-        private void button26_Click(object sender, EventArgs e)
+        private void SaturationDecrement_Click(object sender, EventArgs e)
         {
             try
             {
                 Cursor.Current = Cursors.WaitCursor;
-                Form2 f2 = new Form2();
-                pictureBox1.Visible = false;
+                double final_threshold_satdecrement;    // storing the final binarization threshold value                                
                 Bitmap bp = rgb_image;
                 if (bp != null)
                 {
+                    SatDecrement satdec = new SatDecrement();
+                    satdec.ShowDialog();
+                    final_threshold_satdecrement = satdec.getValue();
                     Bitmap temp = bp.Clone() as Bitmap;
                     FiltersSequence fs = new FiltersSequence();
-                    fs.Add(new SaturationCorrection(-0.5f));
+                    fs.Add(new SaturationCorrection((float)final_threshold_satdecrement));
                     temp = fs.Apply(temp);
-                    pictureBox1.Image = new Bitmap(temp);
-                    pictureBox1.Show();
+                    PicImageSecond.Image = new Bitmap(temp);
+                    PicImageSecond.Show();
+                    Cursor.Current = Cursors.Default;
                 }
                 else
                     MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     Cursor.Current = Cursors.Default;
-                    this.Refresh();                     
+                    this.Refresh();
             }
             catch (Exception e1)
             {
-                MessageBox.Show("Error in Saturation Correction(Decrement)","Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Refresh();                     
+                MessageBox.Show("Error in Saturation Correction(Decrement)", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                this.Refresh();
             }
         }
-
-                                            /* Method stub for SIS Thresholding */
+        /* Method stub for SIS Thresholding */
         /* The filter performs image thresholding calculating threshold automatically using simple image statistics method */
         /* The filter accepts 8 bpp grayscale images for processing */
-        private void button27_Click(object sender, EventArgs e)
+        private void SISThreshold_Click(object sender, EventArgs e)
         {
             try
             {
                 Cursor.Current = Cursors.WaitCursor;
-                Form2 f2 = new Form2();
-                pictureBox1.Visible = false;
                 Bitmap bp = rgb_image;
                 if (bp != null)
                 {
                     Bitmap temp = bp.Clone() as Bitmap;
                     FiltersSequence fs = new FiltersSequence();
                     fs.Add(Grayscale.CommonAlgorithms.BT709);
-                    fs.Add(new SISThreshold());
+                    fs.Add(new SISThreshold());  
                     temp = fs.Apply(temp);
-                    pictureBox1.Image = new Bitmap(temp);
-                    pictureBox1.Show();
+                    PicImageSecond.Image = new Bitmap(temp);
+                    PicImageSecond.Show();
+                    Cursor.Current = Cursors.Default;
                 }
                 else
                     MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     Cursor.Current = Cursors.Default;
-                    this.Refresh();                     
+                    this.Refresh();
             }
             catch (Exception e1)
             {
                 MessageBox.Show("Error in SIS Thresholding", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Refresh();                     
+                this.Refresh();
             }
         }
-
-        /* Method stub for Back Button */
-        private void button28_Click(object sender, EventArgs e)
-        {
-            this.Close();
-            this.Hide();
-            Form1 fs1 = new Form1();
-            fs1.PerformAutoScale();                      
-            fs1.Activate();
-            fs1.ShowDialog();             
-        }
-
-                                         /* Method stub for Bicubic Resize filter */
+        /* Method stub for Bicubic Resize filter */
         /* The class implements image resizing filter using bicubic interpolation algorithm.
          * It uses bicubic kernel W(x) (coefficient a is set to -0.5).
            The filter accepts 8 grayscale images and 24 bpp color images for processing */
-        private void button29_Click(object sender, EventArgs e)
+        private void ResizeBicubic_Click(object sender, EventArgs e)
         {
             try
             {
                 Cursor.Current = Cursors.WaitCursor;
-                Form2 f2 = new Form2();
-                pictureBox1.Visible = false;
+                int img_height, img_width;
                 Bitmap bp = rgb_image;
                 if (bp != null)
                 {
+                    BicubicResize br = new BicubicResize();
+                    br.ShowDialog();
+                    img_height = Convert.ToInt32(br.GetHeight());
+                    img_width = Convert.ToInt32(br.GetWidth());
                     Bitmap temp = bp.Clone() as Bitmap;
                     FiltersSequence fs = new FiltersSequence();
-                    fs.Add(new ResizeBicubic(400, 300));
+                    fs.Add(new ResizeBicubic(img_width, img_height));
                     temp = fs.Apply(temp);
-                    pictureBox1.Image = new Bitmap(temp);
-                    pictureBox1.Show();
+                    PicImageSecond.Image = new Bitmap(temp);
+                    PicImageSecond.Show();
+                    Cursor.Current = Cursors.Default;
                 }
                 else
                     MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     Cursor.Current = Cursors.Default;
-                    this.Refresh();                     
+                    this.Refresh();
             }
             catch (Exception e1)
             {
                 MessageBox.Show("Error in Resizing", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Refresh();                     
+                this.Refresh();
             }
         }
-
-                                     /* Method stub for Bilinear resizing filter */
+        /* Method stub for Bilinear resizing filter */
         /* The stub implements image resizing filter using bilinear interpolation algorithm.
            The filter accepts 8 grayscale images and 24/32 bpp color images for processing */
-        private void button30_Click(object sender, EventArgs e)
+        private void BilinearResize_Click(object sender, EventArgs e)
         {
             try
             {
                 Cursor.Current = Cursors.WaitCursor;
-                Form2 f2 = new Form2();
-                pictureBox1.Visible = false;
+                int bil_height, bil_width;
                 Bitmap bp = rgb_image;
                 if (bp != null)
                 {
+                    BilinearResize blr = new BilinearResize();
+                    blr.ShowDialog();
+                    bil_height = Convert.ToInt32(blr.GetHeight());
+                    bil_width = Convert.ToInt32(blr.GetWidth());
                     Bitmap temp = bp.Clone() as Bitmap;
                     FiltersSequence fs = new FiltersSequence();
-                    fs.Add(new ResizeBilinear(400, 300));
+                    fs.Add(new ResizeBilinear(bil_width, bil_height));
                     temp = fs.Apply(temp);
-                    pictureBox1.Image = new Bitmap(temp);
-                    pictureBox1.Show();
+                    PicImageSecond.Image = new Bitmap(temp);
+                    PicImageSecond.Show();
+                    Cursor.Current = Cursors.Default;
                 }
                 else
                     MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     Cursor.Current = Cursors.Default;
-                    this.Refresh();                     
+                    this.Refresh();
             }
             catch (Exception e1)
             {
                 MessageBox.Show("Error in Resizing", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Refresh();                     
+                this.Refresh();
             }
         }
-
-                                    /* Method stub for Nearest Neighbour Resizing filter */
+        /* Method stub for Nearest Neighbour Resizing filter */
         /* The stub implements image resizing filter using nearest neighbor algorithm, which does not assume any interpolation.
            The filter accepts 8 and 16 bpp grayscale images and 24, 32, 48 and 64 bpp color images for processing */
-        private void button31_Click(object sender, EventArgs e)
-        { 
+        private void NearestNeighbourResize_Click(object sender, EventArgs e)
+        {
             try
             {
                 Cursor.Current = Cursors.WaitCursor;
-                Form2 f2 = new Form2();
-                pictureBox1.Visible = false;
+                int nn_height, nn_width;
                 Bitmap bp = rgb_image;
                 if (bp != null)
                 {
+                    NearestNeighbourResize nnr = new NearestNeighbourResize();
+                    nnr.ShowDialog();
+                    nn_height = Convert.ToInt32(nnr.GetHeight());
+                    nn_width = Convert.ToInt32(nnr.GetWidth());
                     Bitmap temp = bp.Clone() as Bitmap;
                     FiltersSequence fs = new FiltersSequence();
-                    fs.Add(new ResizeNearestNeighbor(400, 300));
+                    fs.Add(new ResizeNearestNeighbor(nn_width, nn_height));
                     temp = fs.Apply(temp);
-                    pictureBox1.Image = new Bitmap(temp);
-                    pictureBox1.Show();
+                    PicImageSecond.Image = new Bitmap(temp);
+                    PicImageSecond.Show();
+                    Cursor.Current = Cursors.Default;
                 }
                 else
                     MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     Cursor.Current = Cursors.Default;
-                    this.Refresh();                     
+                    this.Refresh();
             }
             catch (Exception e1)
             {
                 MessageBox.Show("Error in Resizing", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Refresh();                     
+                this.Refresh();
             }
         }
-
-                                         /* Method stub for Bicubic Rotational filter */
+        /* Method stub for Bicubic Rotational filter */
         /* The class implements image rotation filter using bicubic interpolation algorithm. 
          * It uses bicubic kernel W(x) as described on Wikipedia (coefficient a is set to -0.5).
            Rotation is performed in counterclockwise direction.
            The filter accepts 8 bpp grayscale images and 24 bpp color images for processing */
-        private void button32_Click(object sender, EventArgs e)
+        private void RotateBicubic_Click(object sender, EventArgs e)
         {
             try
             {
                 Cursor.Current = Cursors.WaitCursor;
-                Form2 f2 = new Form2();
-                pictureBox1.Visible = false;
+                double rotation_angle;
+                bool image_size;
                 Bitmap bp = rgb_image;
                 if (bp != null)
                 {
+                    BicubicRotation bcr = new BicubicRotation();
+                    bcr.ShowDialog();
+                    rotation_angle = bcr.getAngle();
+                    image_size = bcr.ImageSizeFixedOrNot();
                     Bitmap temp = bp.Clone() as Bitmap;
                     FiltersSequence fs = new FiltersSequence();
-                    fs.Add(new RotateBicubic(30, true));
+                    fs.Add(new RotateBicubic(rotation_angle, image_size));
                     temp = fs.Apply(temp);
-                    pictureBox1.Image = new Bitmap(temp);
-                    pictureBox1.Show();
+                    PicImageSecond.Image = new Bitmap(temp);
+                    PicImageSecond.Show();
+                    Cursor.Current = Cursors.WaitCursor;
                 }
                 else
                     MessageBox.Show("Select the Image", "Close", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     Cursor.Current = Cursors.Default;
-                    this.Refresh();                     
+                    this.Refresh();
             }
             catch (Exception e1)
             {
                 MessageBox.Show("Error in Rotation", "Try Again", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Refresh();                     
+                this.Refresh();
             }
-        }
-
-        /* Method stub for Next Button */
-        private void button39_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Form3 fs3 = new Form3();
-            fs3.PerformAutoScale();
-            fs3.Activate();
-            fs3.ShowDialog();     
-        }  
-                     
+        }                                    
      }
 }

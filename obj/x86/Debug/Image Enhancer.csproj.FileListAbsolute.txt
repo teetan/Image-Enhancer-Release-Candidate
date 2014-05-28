@@ -19,12 +19,1509 @@ C:\Users\CDAC-20\Desktop\Dropbox\Abhisek\Accord_Test\bin\Debug\AForge.MachineLea
 C:\Users\CDAC-20\Desktop\Dropbox\Abhisek\Accord_Test\bin\Debug\AForge.Math.xml
 C:\Users\CDAC-20\Desktop\Dropbox\Abhisek\Accord_Test\bin\Debug\AForge.Video.xml
 C:\Users\CDAC-20\Desktop\Dropbox\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Additivenoise.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Binarization.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Brightnesscorrection.resources
 C:\Users\CDAC-20\Desktop\Dropbox\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form1.resources
 C:\Users\CDAC-20\Desktop\Dropbox\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form2.resources
 C:\Users\CDAC-20\Desktop\Dropbox\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form3.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Jittering.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MirrorEffect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Pixellation.resources
 C:\Users\CDAC-20\Desktop\Dropbox\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Properties.Resources.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatDecrement.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatuIncrement.resources
 C:\Users\CDAC-20\Desktop\Dropbox\Abhisek\Accord_Test\obj\x86\Debug\Image Enhancer.csproj.GenerateResource.Cache
 C:\Users\CDAC-20\Desktop\Dropbox\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe.manifest
 C:\Users\CDAC-20\Desktop\Dropbox\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.application
 C:\Users\CDAC-20\Desktop\Dropbox\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe
 C:\Users\CDAC-20\Desktop\Dropbox\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.pdb
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe.manifest
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.application
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.pdb
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Controls.dll
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.dll
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.dll
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.dll
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.IPPrototyper.dll
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.dll
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Math.dll
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.dll
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.dll
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.xml
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Controls.xml
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.xml
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.xml
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.xml
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Math.xml
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.xml
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.xml
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Additivenoise.resources
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicResize.resources
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicRotation.resources
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BilinearResize.resources
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Binarization.resources
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Brightnesscorrection.resources
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ConservativeSmooth.resources
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form1.resources
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form2.resources
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form3.resources
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Jittering.resources
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MedianFilter.resources
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MirrorEffect.resources
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourResize.resources
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourRotation.resources
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Pixellation.resources
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Properties.Resources.resources
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SaltandPepperNoise.resources
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatCorrection.resources
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatDecrement.resources
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatuIncrement.resources
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe.manifest
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.application
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe
+E:\Image Enhancer All Code\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.pdb
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe.manifest
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.application
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.pdb
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Controls.dll
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.dll
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.dll
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.dll
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.IPPrototyper.dll
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.dll
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Math.dll
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.dll
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.xml
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Controls.xml
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.xml
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.xml
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.xml
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Math.xml
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.xml
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Additivenoise.resources
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicRotation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BilinearResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Binarization.resources
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Brightnesscorrection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ChannelFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ConservativeSmooth.resources
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form1.resources
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form2.resources
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form3.resources
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Jittering.resources
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MedianFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MirrorEffect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourRotation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Pixellation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Properties.Resources.resources
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SaltandPepperNoise.resources
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatCorrection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatDecrement.resources
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatuIncrement.resources
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.WaterWaveFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Image Enhancer.csproj.GenerateResource.Cache
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe.manifest
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.application
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe
+C:\Users\CDAC-20\Desktop\Dropbox\16.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.pdb
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe.manifest
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.application
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.pdb
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Controls.dll
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.dll
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.dll
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.dll
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.IPPrototyper.dll
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.dll
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Math.dll
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.dll
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.xml
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Controls.xml
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.xml
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.xml
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.xml
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Math.xml
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.xml
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Additivenoise.resources
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicRotation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BilinearResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Binarization.resources
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Brightnesscorrection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ChannelFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ConservativeSmooth.resources
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form1.resources
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form2.resources
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form3.resources
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Jittering.resources
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MedianFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MirrorEffect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourRotation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Pixellation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Properties.Resources.resources
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SaltandPepperNoise.resources
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatCorrection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatDecrement.resources
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatuIncrement.resources
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformToPolarImage.resources
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.WaterWaveFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Image Enhancer.csproj.GenerateResource.Cache
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe.manifest
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.application
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe
+C:\Users\CDAC-20\Desktop\Dropbox\25.11.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.pdb
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe.manifest
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.application
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.pdb
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Controls.dll
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.dll
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.dll
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.dll
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.IPPrototyper.dll
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.dll
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Math.dll
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.dll
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.dll
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.xml
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Controls.xml
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.xml
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.xml
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.xml
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Math.xml
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.xml
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.xml
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Additivenoise.resources
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicResize.resources
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicRotation.resources
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BilinearResize.resources
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Binarization.resources
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Brightnesscorrection.resources
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ChannelFilter.resources
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ConservativeSmooth.resources
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form1.resources
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form2.resources
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form3.resources
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GamaCorrect.resources
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Jittering.resources
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MedianFilter.resources
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MirrorEffect.resources
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourResize.resources
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourRotation.resources
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Pixellation.resources
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Properties.Resources.resources
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SaltandPepperNoise.resources
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatCorrection.resources
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatDecrement.resources
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatuIncrement.resources
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformFromPolarImage.resources
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformToPolarImage.resources
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.WaterWaveFilter.resources
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe.manifest
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.application
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.pdb
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NormalizedExtraction.resources
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimpleSkeleton.resources
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussBlur.resources
+E:\Image Enhancer All Code\01.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussSharpen.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe.manifest
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.application
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.pdb
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Controls.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.IPPrototyper.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Math.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Controls.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Math.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Additivenoise.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicRotation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BilinearResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Binarization.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Brightnesscorrection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.CannyEdgeDetection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ChannelFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ConservativeSmooth.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form1.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form2.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form3.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GamaCorrect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussBlur.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussSharpen.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.HSLFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Jittering.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MedianFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MirrorEffect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourRotation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NormalizedExtraction.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Pixellation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Properties.Resources.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SaltandPepperNoise.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatCorrection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatDecrement.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatuIncrement.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimpleSkeleton.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformFromPolarImage.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformToPolarImage.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.WaterWaveFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Image Enhancer.csproj.GenerateResource.Cache
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe.manifest
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.application
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.pdb
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.pdb
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe.manifest
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.application
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.pdb
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Controls.dll
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.dll
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.dll
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.dll
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.IPPrototyper.dll
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.dll
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Math.dll
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.dll
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.dll
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.xml
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Controls.xml
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.xml
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.xml
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.xml
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Math.xml
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.xml
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.xml
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Additivenoise.resources
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicResize.resources
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicRotation.resources
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BilinearResize.resources
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Binarization.resources
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Brightnesscorrection.resources
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.CannyEdgeDetection.resources
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ChannelFilter.resources
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ConservativeSmooth.resources
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form1.resources
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form2.resources
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form3.resources
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GamaCorrect.resources
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussBlur.resources
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussSharpen.resources
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.HSLFilter.resources
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Jittering.resources
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MedianFilter.resources
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MirrorEffect.resources
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourResize.resources
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourRotation.resources
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NormalizedExtraction.resources
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Pixellation.resources
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Properties.Resources.resources
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SaltandPepperNoise.resources
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatCorrection.resources
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatDecrement.resources
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatuIncrement.resources
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimpleSkeleton.resources
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformFromPolarImage.resources
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformToPolarImage.resources
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.WaterWaveFilter.resources
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe.manifest
+E:\Image Enhancer All Code\05.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.application
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe.manifest
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.application
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.pdb
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Controls.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.IPPrototyper.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Math.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Controls.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Math.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Additivenoise.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicRotation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BilinearResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Binarization.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Brightnesscorrection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.CannyEdgeDetection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ChannelFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ConservativeSmooth.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ContrastCorrect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ExtractionOfChannel.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form1.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form2.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form3.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GamaCorrect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussBlur.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussSharpen.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.HSLFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Jittering.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MedianFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MirrorEffect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourRotation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NormalizedExtraction.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.OilPaint.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Pixellation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Properties.Resources.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SaltandPepperNoise.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatCorrection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatDecrement.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatuIncrement.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimplePoster.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimpleSkeleton.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SobelEdgeDetection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformFromPolarImage.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformToPolarImage.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.WaterWaveFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Image Enhancer.csproj.GenerateResource.Cache
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe.manifest
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.application
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\10.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.pdb
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe.manifest
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.application
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.pdb
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Controls.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.IPPrototyper.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Math.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Controls.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Math.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Additivenoise.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicRotation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BilinearResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Binarization.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Brightnesscorrection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.CannyEdgeDetection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ChannelFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ConservativeSmooth.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ContrastCorrect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ExtractionOfChannel.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.FloydSteinbergDither.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form1.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form2.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form3.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GamaCorrect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussBlur.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussSharpen.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.HSLFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Jittering.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MedianFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MirrorEffect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourRotation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NormalizedExtraction.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.OilPaint.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Pixellation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Properties.Resources.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SaltandPepperNoise.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatCorrection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatDecrement.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatuIncrement.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimplePoster.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimpleSkeleton.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SobelEdgeDetection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformFromPolarImage.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformToPolarImage.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.WaterWaveFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Image Enhancer.csproj.GenerateResource.Cache
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe.manifest
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.application
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\17.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.pdb
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe.manifest
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.application
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\bin\Debug\Accord_Test.pdb
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Controls.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.IPPrototyper.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Math.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Controls.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Math.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Additivenoise.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicRotation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BilinearResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Binarization.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Brightnesscorrection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.CannyEdgeDetection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ChannelFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ConservativeSmooth.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ContrastCorrect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ExtractionOfChannel.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.FloydSteinbergDither.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form1.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form2.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form3.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GamaCorrect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussBlur.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussSharpen.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.HSLFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Jittering.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MedianFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MirrorEffect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourRotation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NormalizedExtraction.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.OilPaint.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Pixellation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Properties.Resources.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SaltandPepperNoise.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatCorrection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatDecrement.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatuIncrement.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimplePoster.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimpleSkeleton.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SobelEdgeDetection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformFromPolarImage.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformToPolarImage.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.WaterWaveFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Image Enhancer.csproj.GenerateResource.Cache
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe.manifest
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.application
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\18.12.2013\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.pdb
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.pdb
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe.manifest
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.application
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.pdb
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Controls.dll
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.dll
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.dll
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.dll
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.IPPrototyper.dll
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.dll
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Math.dll
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.dll
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.dll
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.xml
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Controls.xml
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.xml
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.xml
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.xml
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Math.xml
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.xml
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.xml
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Additivenoise.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicResize.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicRotation.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BilinearResize.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Binarization.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Brightnesscorrection.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.CannyEdgeDetection.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ChannelFilter.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ConservativeSmooth.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ContrastCorrect.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ExtractionOfChannel.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.FloydSteinbergDither.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form1.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form2.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form3.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GamaCorrect.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussBlur.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussSharpen.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.HSLFilter.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Jittering.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MedianFilter.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MirrorEffect.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourResize.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourRotation.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NormalizedExtraction.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.OilPaint.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Pixellation.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Properties.Resources.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SaltandPepperNoise.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatCorrection.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatDecrement.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatuIncrement.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimplePoster.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimpleSkeleton.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SobelEdgeDetection.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformFromPolarImage.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformToPolarImage.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.WaterWaveFilter.resources
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe.manifest
+E:\Image Enhancer All Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.application
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Additivenoise.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicRotation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BilinearResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Binarization.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Brightnesscorrection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.CannyEdgeDetection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ChannelFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ConservativeSmooth.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ContrastCorrect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.CropCanvas.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ExtractionOfChannel.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.FloydSteinbergDither.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form1.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form2.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form3.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GamaCorrect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussBlur.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussSharpen.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.HSLFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Jittering.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MedianFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MirrorEffect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourRotation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NormalizedExtraction.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.OilPaint.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Pixellation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Properties.Resources.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SaltandPepperNoise.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatCorrection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatDecrement.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatuIncrement.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimplePoster.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimpleSkeleton.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SobelEdgeDetection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformFromPolarImage.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformToPolarImage.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.WaterWaveFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Image Enhancer.csproj.GenerateResource.Cache
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe.manifest
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.application
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.pdb
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Controls.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.IPPrototyper.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Math.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Controls.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Math.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe.manifest
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.application
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\04.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.pdb
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe.manifest
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.application
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.pdb
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Controls.dll
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.dll
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.dll
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.dll
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.IPPrototyper.dll
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.dll
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Math.dll
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.dll
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.dll
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.xml
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Controls.xml
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.xml
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.xml
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.xml
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Math.xml
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.xml
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.xml
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Additivenoise.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicResize.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicRotation.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BilinearResize.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Binarization.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Brightnesscorrection.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.CannyEdgeDetection.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ChannelFilter.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ConservativeSmooth.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ContrastCorrect.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.CropCanvas.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ExtractionOfChannel.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.FloydSteinbergDither.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form1.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form2.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form3.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GamaCorrect.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussBlur.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussSharpen.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.HSLFilter.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Jittering.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MedianFilter.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MirrorEffect.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourResize.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourRotation.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NormalizedExtraction.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.OilPaint.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Pixellation.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Properties.Resources.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SaltandPepperNoise.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatCorrection.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatDecrement.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatuIncrement.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimplePoster.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimpleSkeleton.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SobelEdgeDetection.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformFromPolarImage.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformToPolarImage.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.WaterWaveFilter.resources
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe.manifest
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.application
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe
+E:\Image Enhancer All Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.pdb
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.pdb
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe.manifest
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.application
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.pdb
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Controls.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.IPPrototyper.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Math.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Controls.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Math.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Image Enhancer.csprojResolveAssemblyReference.cache
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Additivenoise.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicRotation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BilinearResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Binarization.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Brightnesscorrection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.CannyEdgeDetection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ChannelFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ConservativeSmooth.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ContrastCorrect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.CropCanvas.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ExtractionOfChannel.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.FloydSteinbergDither.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form1.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form2.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form3.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GamaCorrect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussBlur.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussSharpen.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.HSLFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Jittering.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MedianFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MirrorEffect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourRotation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NormalizedExtraction.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.OilPaint.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Pixellation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Properties.Resources.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SaltandPepperNoise.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatCorrection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatDecrement.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatuIncrement.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimplePoster.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimpleSkeleton.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SobelEdgeDetection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformFromPolarImage.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformToPolarImage.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.WaterWaveFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Image Enhancer.csproj.GenerateResource.Cache
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe.manifest
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\12.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.application
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe.manifest
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.application
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.pdb
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Controls.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.IPPrototyper.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Math.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Controls.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Math.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Image Enhancer.csprojResolveAssemblyReference.cache
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Additivenoise.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicRotation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BilinearResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Binarization.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Brightnesscorrection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.CannyEdgeDetection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ChannelFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ConservativeSmooth.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ContrastCorrect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.CropCanvas.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ExtractionOfChannel.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.FloydSteinbergDither.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form1.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form2.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form3.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GamaCorrect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussBlur.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussSharpen.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.HSLFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Jittering.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MedianFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MirrorEffect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourRotation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NormalizedExtraction.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.OilPaint.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Pixellation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Properties.Resources.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SaltandPepperNoise.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatCorrection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatDecrement.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatuIncrement.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimplePoster.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimpleSkeleton.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SobelEdgeDetection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformFromPolarImage.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformToPolarImage.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.WaterWaveFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Image Enhancer.csproj.GenerateResource.Cache
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe.manifest
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.application
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\13.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.pdb
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe.manifest
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.application
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.pdb
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Controls.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.IPPrototyper.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Math.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Controls.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Math.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Additivenoise.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicRotation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BilinearResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Binarization.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Brightnesscorrection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.CannyEdgeDetection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ChannelFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ConservativeSmooth.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ContrastCorrect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.CropCanvas.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ExtractionOfChannel.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.FloydSteinbergDither.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form1.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form2.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form3.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GamaCorrect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussBlur.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussSharpen.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.HSLFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Jittering.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MedianFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MirrorEffect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourRotation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NormalizedExtraction.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.OilPaint.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Pixellation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Properties.Resources.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SaltandPepperNoise.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatCorrection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatDecrement.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatuIncrement.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimplePoster.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimpleSkeleton.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SobelEdgeDetection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformFromPolarImage.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformToPolarImage.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.WaterWaveFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Image Enhancer.csproj.GenerateResource.Cache
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe.manifest
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.application
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.pdb
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe.manifest
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.application
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.pdb
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Controls.dll
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.dll
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.dll
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.dll
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.IPPrototyper.dll
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.dll
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Math.dll
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.dll
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.dll
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.xml
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Controls.xml
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.xml
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.xml
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.xml
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Math.xml
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.xml
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.xml
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Additivenoise.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicResize.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicRotation.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BilinearResize.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Binarization.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Brightnesscorrection.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.CannyEdgeDetection.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ChannelFilter.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ConservativeSmooth.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ContrastCorrect.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.CropCanvas.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ExtractionOfChannel.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.FloydSteinbergDither.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form1.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form2.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form3.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GamaCorrect.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussBlur.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussSharpen.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.HSLFilter.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Jittering.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MedianFilter.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MirrorEffect.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourResize.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourRotation.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NormalizedExtraction.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.OilPaint.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Pixellation.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Properties.Resources.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SaltandPepperNoise.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatCorrection.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatDecrement.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatuIncrement.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimplePoster.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimpleSkeleton.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SobelEdgeDetection.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformFromPolarImage.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformToPolarImage.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.WaterWaveFilter.resources
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe.manifest
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.application
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe
+E:\Image Enhancer All Code\15.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.pdb
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe.manifest
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.application
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.pdb
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Controls.dll
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.dll
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.dll
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.dll
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.IPPrototyper.dll
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.dll
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Math.dll
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.dll
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.dll
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.xml
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Controls.xml
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.xml
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.xml
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.xml
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Math.xml
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.xml
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.xml
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Additivenoise.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicResize.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicRotation.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BilinearResize.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Binarization.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Brightnesscorrection.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.CannyEdgeDetection.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ChannelFilter.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ConservativeSmooth.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ContrastCorrect.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.CropCanvas.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ExtractionOfChannel.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.FloydSteinbergDither.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form1.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form2.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form3.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GamaCorrect.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussBlur.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussSharpen.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.HSLFilter.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Jittering.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MedianFilter.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MirrorEffect.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourResize.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourRotation.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NormalizedExtraction.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.OilPaint.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Pixellation.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Properties.Resources.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SaltandPepperNoise.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatCorrection.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatDecrement.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatuIncrement.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimplePoster.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimpleSkeleton.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SobelEdgeDetection.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformFromPolarImage.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformToPolarImage.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.WaterWaveFilter.resources
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe.manifest
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.application
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe
+E:\Image Enhancer All Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.pdb
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe.manifest
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.application
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.pdb
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Controls.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.IPPrototyper.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Math.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Controls.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Math.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Additivenoise.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicRotation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BilateralSmooth.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BilinearResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Binarization.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Brightnesscorrection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.CannyEdgeDetection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ChannelFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ConservativeSmooth.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ContrastCorrect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.CropCanvas.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ExtractionOfChannel.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.FloydSteinbergDither.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form1.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form2.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form3.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GamaCorrect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussBlur.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussSharpen.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.HSLFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Jittering.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MedianFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MirrorEffect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourRotation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NormalizedExtraction.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.OilPaint.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Pixellation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Properties.Resources.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SaltandPepperNoise.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatCorrection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatDecrement.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatuIncrement.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimplePoster.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimpleSkeleton.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SobelEdgeDetection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformFromPolarImage.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformToPolarImage.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.WaterWaveFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Image Enhancer.csproj.GenerateResource.Cache
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe.manifest
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.application
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\19.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.pdb
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe.manifest
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.application
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.pdb
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Controls.dll
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.dll
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.dll
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.dll
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.IPPrototyper.dll
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.dll
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Math.dll
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.dll
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.dll
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.xml
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Controls.xml
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.xml
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.xml
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.xml
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Math.xml
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.xml
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.xml
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Additivenoise.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicResize.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicRotation.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BilateralSmooth.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BilinearResize.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Binarization.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Brightnesscorrection.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.CannyEdgeDetection.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ChannelFilter.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ConservativeSmooth.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ContrastCorrect.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.CropCanvas.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ExtractionOfChannel.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.FloydSteinbergDither.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form1.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form2.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form3.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GamaCorrect.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussBlur.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussSharpen.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.HSLFilter.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Jittering.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.JJNDither.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MedianFilter.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MirrorEffect.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourResize.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourRotation.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NormalizedExtraction.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.OilPaint.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Pixellation.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Properties.Resources.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SaltandPepperNoise.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatCorrection.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatDecrement.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatuIncrement.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimplePoster.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimpleSkeleton.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SobelEdgeDetection.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.StuckiDither.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Texture.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformFromPolarImage.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformToPolarImage.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.WaterWaveFilter.resources
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe.manifest
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.application
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe
+E:\Image Enhancer All Code\21.01.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.pdb
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe.manifest
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.application
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.pdb
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Controls.dll
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.dll
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.dll
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.dll
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.IPPrototyper.dll
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.dll
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Math.dll
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.dll
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.dll
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.xml
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Controls.xml
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.xml
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.xml
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.xml
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Math.xml
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.xml
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.xml
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Additivenoise.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BayerFilt.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicResize.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicRotation.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BilateralSmooth.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BilinearResize.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Binarization.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Brightnesscorrection.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BurkesDither.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.CannyEdgeDetection.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ChannelFilter.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ConservativeSmooth.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ContrastCorrect.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.CropCanvas.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ExtractionOfChannel.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.FloydSteinbergDither.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form1.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form2.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form3.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GamaCorrect.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussBlur.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussSharpen.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.HSLFilter.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Jittering.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.JJNDither.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MedianFilter.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MirrorEffect.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourResize.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourRotation.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NormalizedExtraction.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.OilPaint.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Pixellation.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Properties.Resources.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SaltandPepperNoise.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatCorrection.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatDecrement.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatuIncrement.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SierraDither.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimplePoster.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimpleSkeleton.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SobelEdgeDetection.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.StuckiDither.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Texture.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformFromPolarImage.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformToPolarImage.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.WaterWaveFilter.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe.manifest
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.application
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.pdb
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.AdaptiveSmooth.resources
+E:\Image Enhancer All Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.LinearYCbCr.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe.manifest
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.application
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.pdb
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Controls.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.IPPrototyper.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Math.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.dll
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Controls.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Math.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.AdaptiveSmooth.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Additivenoise.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BayerFilt.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicRotation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BilateralSmooth.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BilinearResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Binarization.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Brightnesscorrection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BurkesDither.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.CannyEdgeDetection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ChannelFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ColorYCbCr.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ConservativeSmooth.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ContrastCorrect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.CropCanvas.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ExtractionOfChannel.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.FloydSteinbergDither.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form1.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form2.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form3.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GamaCorrect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussBlur.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussSharpen.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.HSLFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Jittering.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.JJNDither.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.LinearYCbCr.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MedianFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MirrorEffect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourRotation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NormalizedExtraction.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.OilPaint.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Pixellation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Properties.Resources.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SaltandPepperNoise.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatCorrection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatDecrement.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatuIncrement.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SierraDither.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimplePoster.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimpleSkeleton.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SobelEdgeDetection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.StuckiDither.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Texture.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformFromPolarImage.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformToPolarImage.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.WaterWaveFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Image Enhancer.csproj.GenerateResource.Cache
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe.manifest
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.application
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.pdb
+C:\Users\CDAC-20\Desktop\Dropbox\Image Enhancer All Version Code\9.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Image Enhancer.csprojResolveAssemblyReference.cache
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe.manifest
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.application
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\bin\Debug\Accord_Test.pdb
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Controls.dll
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.dll
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.dll
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.dll
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.IPPrototyper.dll
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.dll
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Math.dll
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.dll
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.dll
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.xml
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Controls.xml
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.xml
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.xml
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.xml
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Math.xml
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.xml
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.xml
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.AdaptiveSmooth.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Additivenoise.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BayerFilt.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicResize.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicRotation.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BilateralSmooth.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BilinearResize.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Binarization.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Brightnesscorrection.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BurkesDither.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.CannyEdgeDetection.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ChannelFilter.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ColorYCbCr.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ConservativeSmooth.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ContrastCorrect.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.CropCanvas.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ExtractionOfChannel.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ExtractYCbCr.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.FloydSteinbergDither.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form1.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form2.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form3.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GamaCorrect.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussBlur.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussSharpen.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.HSLFilter.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Jittering.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.JJNDither.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.LinearYCbCr.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MedianFilter.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MirrorEffect.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourResize.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourRotation.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NormalizedExtraction.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.OilPaint.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Pixellation.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Properties.Resources.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SaltandPepperNoise.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatCorrection.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatDecrement.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatuIncrement.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SierraDither.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimplePoster.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimpleSkeleton.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SobelEdgeDetection.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.StuckiDither.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Texture.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformFromPolarImage.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformToPolarImage.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.WaterWaveFilter.resources
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe.manifest
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.application
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe
+E:\Image Enhancer All Code\15.2.2014\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.pdb
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.pdb
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe.manifest
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\bin\Debug\Accord_Test.application
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\bin\Debug\Accord_Test.exe
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\bin\Debug\Accord_Test.pdb
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\bin\Debug\AForge.Controls.dll
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\bin\Debug\AForge.dll
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.dll
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.dll
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.IPPrototyper.dll
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.dll
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\bin\Debug\AForge.Math.dll
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\bin\Debug\AForge.Video.dll
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\bin\Debug\AForge.xml
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\bin\Debug\AForge.Controls.xml
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.xml
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\bin\Debug\AForge.Imaging.Formats.xml
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\bin\Debug\AForge.MachineLearning.xml
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\bin\Debug\AForge.Math.xml
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\bin\Debug\AForge.Video.xml
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Image Enhancer.csprojResolveAssemblyReference.cache
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.AdaptiveSmooth.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Additivenoise.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BayerFilt.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BicubicRotation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BilateralSmooth.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BilinearResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Binarization.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Brightnesscorrection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.BurkesDither.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.CannyEdgeDetection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ChannelFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ColorYCbCr.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ConservativeSmooth.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ContrastCorrect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.CropCanvas.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ExtractionOfChannel.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.ExtractYCbCr.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.FloydSteinbergDither.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form1.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form2.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\ImageEnhancer.Form3.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GamaCorrect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussBlur.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.GaussSharpen.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.HSLFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Jittering.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.JJNDither.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.LinearYCbCr.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MedianFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.MirrorEffect.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourResize.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NearestNeighbourRotation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.NormalizedExtraction.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.OilPaint.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Pixellation.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Properties.Resources.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SaltandPepperNoise.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatCorrection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatDecrement.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SatuIncrement.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SierraDither.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimplePoster.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SimpleSkeleton.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.SobelEdgeDetection.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.StuckiDither.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.Texture.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformFromPolarImage.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.TransformToPolarImage.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.WaterWaveFilter.resources
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Image Enhancer.csproj.GenerateResource.Cache
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.exe.manifest
+C:\Users\CDAC-20\Desktop\Dropbox\ImageEnhancer RC Version\Abhisek\Accord_Test\obj\x86\Debug\Accord_Test.application

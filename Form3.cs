@@ -156,64 +156,8 @@ namespace ImageEnhancer
         public Form3()
         {
             InitializeComponent();
-        }
-
-        /* Method stub for "Refresh" Button */
-        private void button14_Click(object sender, EventArgs e)
-        {
-            if (no_of_click > 0)
-            {
-                Cursor.Current = Cursors.WaitCursor;
-                pictureBox1.Visible = false;
-                pictureBox1.Refresh();
-                pictureBox1.Update();
-                MessageBox.Show("Refresh Complete", "Refresh", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
-                Cursor.Current = Cursors.Default;
-            }
-            else
-                MessageBox.Show("Stop Video Streaming First :: Press Stop Button","Warning",MessageBoxButtons.OK,MessageBoxIcon.Warning);
-        }
-
-        /* Method stub for Image Snapshot Maker from video streaming */
-        private void button24_Click(object sender, EventArgs e)
-        {
-            Cursor.Current = Cursors.WaitCursor;
-            Bitmap bp = saved_image;
-            if (bp != null)
-            {
-                Bitmap temp = bp.Clone() as Bitmap;
-                SaveFileDialog dialog = new SaveFileDialog();
-                dialog.Filter = "Image Files (*.jpg)|*.jpg|(*.bmp)|*.bmp|All files (*.*)|*.*";
-                dialog.InitialDirectory = @"C:\";
-                dialog.Title = "Name The Image";
-                if (dialog.ShowDialog() == DialogResult.OK)
-                {
-                    temp.Save(dialog.FileName, ImageFormat.Jpeg);
-                }
-                MessageBox.Show("Saving Complete", "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            else
-                MessageBox.Show("Image Capturing Unsuccessful from Video Streaming :: Press Stop First", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                Cursor.Current = Cursors.Default;            
-        }
-
-        /* Method stub for Back Button */
-        private void button28_Click(object sender, EventArgs e)
-        {
-            if (no_of_click > 0)
-            {
-                this.Close();
-                this.Hide();
-                Form2 fs2 = new Form2();
-                fs2.PerformAutoScale();
-                fs2.Activate();
-                fs2.ShowDialog();
-            }
-            else
-                MessageBox.Show("Stop Video Streaming First :: Press Stop","Warning",MessageBoxButtons.OK,MessageBoxIcon.Warning);
-        }
-
-        /* Method stub to check if USB/surveillance camera is attached with PC/laptop */
+        }  
+       /* Method stub to check if USB/surveillance camera is attached with PC/laptop */
         private void Form3_Load(object sender, EventArgs e)
         {
             try
@@ -232,34 +176,118 @@ namespace ImageEnhancer
                 Form2 f2 = new Form2();
                 f2.Show();
             }
+            /* Tooltips are enabled when this form loads */
+            ToolTip refr = new ToolTip();
+            refr.IsBalloon = true;
+            refr.ToolTipTitle = "Refresh";
+            refr.ToolTipIcon = ToolTipIcon.Info;            
+            refr.SetToolTip(Refresh,"Refresh the image vieweing area");
 
-        }
+            ToolTip bck = new ToolTip();
+            bck.IsBalloon = true;
+            bck.ToolTipTitle = "Back";
+            bck.ToolTipIcon = ToolTipIcon.Info;
+            bck.SetToolTip(Back, "Navigate back to previous page");
 
-        /* Method stub for Start Button; starts video buffering */
-        private void button1_Click(object sender, EventArgs e)
-        {
-            FinalVideo = new VideoCaptureDevice(VideoCaptureDevices[comboBox1.SelectedIndex].MonikerString);
-            FinalVideo.NewFrame+= new NewFrameEventHandler(FinalVideo_NewFrame);
-            FinalVideo.Start();
-        }
+            ToolTip save = new ToolTip();
+            save.IsBalloon = true;
+            save.ToolTipTitle = "Save";
+            save.ToolTipIcon = ToolTipIcon.Info;
+            save.SetToolTip(Save, "Save the image to disk");
 
+            ToolTip start = new ToolTip();
+            start.IsBalloon = true;
+            start.ToolTipTitle = "Start Video";
+            start.ToolTipIcon = ToolTipIcon.Info;
+            start.SetToolTip(Start, "Start the video buffering");
+
+            ToolTip stop = new ToolTip();
+            stop.IsBalloon = true;
+            stop.ToolTipTitle = "Stop Video";
+            stop.ToolTipIcon = ToolTipIcon.Info;
+            stop.SetToolTip(Stop, "Stop the video buffering");
+
+            ToolTip camselect = new ToolTip();
+            camselect.IsBalloon = true;
+            camselect.ToolTipTitle = "Camera Selection";
+            camselect.ToolTipIcon = ToolTipIcon.Info;
+            camselect.SetToolTip(comboBox1,"Select the desired camera from the list");
+        }       
         void FinalVideo_NewFrame(object sender, NewFrameEventArgs eventArgs)
         {
             Bitmap video = (Bitmap)eventArgs.Frame.Clone();
-            pictureBox1.Image = video;
+            picImageThird.Image = video;
         }
-
         int no_of_click = 0;
-        Bitmap saved_image = null;
-
-        private void button2_Click(object sender, EventArgs e)
+        Bitmap saved_image = null;        
+        /* Method stub for "Refresh" Button */
+        private void Refresh_Click(object sender, EventArgs e)
         {
-            no_of_click++;   
+            if (no_of_click > 0)
+            {
+                Cursor.Current = Cursors.WaitCursor;
+                picImageThird.Visible = false;
+                picImageThird.Refresh();
+                picImageThird.Update();
+                MessageBox.Show("Refresh Complete", "Refresh", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                Cursor.Current = Cursors.Default;
+            }
+            else
+                MessageBox.Show("Stop Video Streaming First :: Press Stop Button", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+        }
+        /* Method stub for Back Button */ 
+        private void Back_Click(object sender, EventArgs e)
+        {
+            if (no_of_click > 0)
+            {
+                this.Close();
+                this.Hide();
+                Form2 fs2 = new Form2();
+                fs2.PerformAutoScale();
+                fs2.Activate();
+                fs2.ShowDialog();
+            }
+            else
+                MessageBox.Show("Stop Video Streaming First :: Press Stop", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+        }
+    /* Method stub for Image Snapshot Maker from video streaming */
+        private void Save_Click(object sender, EventArgs e)
+        {
+            Cursor.Current = Cursors.WaitCursor;
+            Bitmap bp = saved_image;
+            if (bp != null)
+            {
+                Bitmap temp = bp.Clone() as Bitmap;
+                SaveFileDialog dialog = new SaveFileDialog();
+                dialog.Filter = "Image Files (*.jpg)|*.jpg|(*.bmp)|*.bmp|All files (*.*)|*.*";
+                dialog.InitialDirectory = @"C:\";
+                dialog.Title = "Name The Image";
+                if (dialog.ShowDialog() == DialogResult.OK)
+                {
+                    temp.Save(dialog.FileName, ImageFormat.Jpeg);
+                }
+                MessageBox.Show("Saving Complete", "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+                MessageBox.Show("Image Capturing Unsuccessful from Video Streaming :: Press Stop First", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Cursor.Current = Cursors.Default;      
+        }
+     /* Method stub for Start Button; starts video buffering */
+        private void Start_Click(object sender, EventArgs e)
+        {
+            FinalVideo = new VideoCaptureDevice(VideoCaptureDevices[comboBox1.SelectedIndex].MonikerString);
+            FinalVideo.NewFrame += new NewFrameEventHandler(FinalVideo_NewFrame);
+            FinalVideo.Start();
+        }
+        /* Method stub for Stop Button; stops video buffering */
+        private void Stop_Click(object sender, EventArgs e)
+        {
+            no_of_click++;
             if (FinalVideo.IsRunning)
             {
                 FinalVideo.Stop();
             }
-            saved_image = (Bitmap)pictureBox1.Image;
-        }
+            saved_image = (Bitmap)picImageThird.Image;
+        }        
     }
 }
