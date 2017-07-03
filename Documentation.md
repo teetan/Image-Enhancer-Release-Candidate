@@ -1,0 +1,1 @@
+The complete documentation and user manual for Image Enhancer 1.0.0 Beta can be found at DOWNLOADS section **(https://imageenhancer.codeplex.com/downloads/get/723515).** The complete documentation for Image Enhancer 1.0 Release Candidate is coming soon. Stay tuned  
